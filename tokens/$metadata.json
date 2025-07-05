@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "Consumer/Global",
+    "Consumer/Semantic",
+    "Consumer/Component",
+    "Succeed Insurance/Global",
+    "Succeed Insurance/Semantic",
+    "Succeed Insurance/Component"
+  ]
+}

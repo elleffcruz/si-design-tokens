@@ -1,0 +1,1508 @@
+{
+  "jds": {
+    "border-radius": {
+      "regular": {
+        "type": "borderRadius",
+        "value": "4",
+        "description": "Regular border radius (supporting multi-value notation using 1, 2, 3, or 4 values)"
+      },
+      "round": {
+        "type": "borderRadius",
+        "value": "9999",
+        "description": "Border radius for circular elements. Multi-value notation using 1, 2, 3, or 4 values is supported."
+      },
+      "none": {
+        "value": "0",
+        "type": "borderRadius",
+        "description": "Zero value for border radius"
+      }
+    },
+    "border-width": {
+      "regular": {
+        "type": "borderWidth",
+        "value": "1",
+        "description": "Regular border width"
+      },
+      "thick": {
+        "type": "borderWidth",
+        "value": "2",
+        "description": "Thick border width"
+      },
+      "none": {
+        "type": "borderWidth",
+        "value": "0",
+        "description": "Zero border width"
+      }
+    },
+    "color": {
+      "palette-brand": {
+        "10": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.10}",
+          "description": "Lightest color stop of brand color."
+        },
+        "20": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.20}",
+          "description": "Lighter color stop of brand color."
+        },
+        "30": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.30}",
+          "description": "Lighter color stop of brand color."
+        },
+        "40": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.40}",
+          "description": "Lighter color stop of brand color."
+        },
+        "50": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.50}",
+          "description": "Lighter color stop of brand color."
+        },
+        "60": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.60}",
+          "description": "Key color brand color from which the lighter and darker values are derived."
+        },
+        "70": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.70}",
+          "description": "Darker color stop of brand color."
+        },
+        "80": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.80}",
+          "description": "Darker color stop of brand color."
+        },
+        "90": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.90}",
+          "description": "Darker color stop of brand color."
+        },
+        "100": {
+          "type": "color",
+          "value": "{jds.color.trusted-blue.100}",
+          "description": "Darkest color stop of brand color."
+        }
+      },
+      "palette-brand-accent-1": {
+        "10": {
+          "type": "color",
+          "value": "{jds.color.teal.10}",
+          "description": "Lightest color stop of brand color"
+        },
+        "20": {
+          "type": "color",
+          "value": "{jds.color.teal.20}",
+          "description": "Lighter color stop of brand color."
+        },
+        "30": {
+          "type": "color",
+          "value": "{jds.color.teal.30}",
+          "description": "Lighter color stop of brand color."
+        },
+        "40": {
+          "type": "color",
+          "value": "{jds.color.teal.40}",
+          "description": "Lighter color stop of brand color."
+        },
+        "50": {
+          "type": "color",
+          "value": "{jds.color.teal.50}",
+          "description": "Lighter color stop of brand color."
+        },
+        "60": {
+          "type": "color",
+          "value": "{jds.color.teal.60}",
+          "description": "Key color brand color from which the lighter and darker values are derived."
+        },
+        "70": {
+          "type": "color",
+          "value": "{jds.color.teal.70}",
+          "description": "Darker color stop of brand color."
+        },
+        "80": {
+          "type": "color",
+          "value": "{jds.color.teal.80}",
+          "description": "Darker color stop of brand color."
+        },
+        "90": {
+          "type": "color",
+          "value": "{jds.color.teal.90}",
+          "description": "Darker color stop of brand color."
+        },
+        "100": {
+          "type": "color",
+          "value": "{jds.color.teal.100}",
+          "description": "Darkest color stop of brand color."
+        }
+      },
+      "palette-brand-accent-2": {
+        "10": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.10}",
+          "description": "Lightest color stop of brand color."
+        },
+        "20": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.20}",
+          "description": "Lighter color stop of brand color."
+        },
+        "30": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.30}",
+          "description": "Lighter color stop of brand color."
+        },
+        "40": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.40}",
+          "description": "Lighter color stop of brand color."
+        },
+        "50": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.50}",
+          "description": "Lighter color stop of brand color."
+        },
+        "60": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.60}",
+          "description": "Key color brand color from which the lighter and darker values are derived."
+        },
+        "70": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.70}",
+          "description": "Darker color stop of brand color."
+        },
+        "80": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.80}",
+          "description": "Darker color stop of brand color."
+        },
+        "90": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.90}",
+          "description": "Darker color stop of brand color."
+        },
+        "100": {
+          "type": "color",
+          "value": "{jds.color.deep-blue.100}",
+          "description": "Darkest color stop of brand color."
+        }
+      },
+      "palette-neutral": {
+        "10": {
+          "type": "color",
+          "value": "{jds.color.gray.10}",
+          "description": "Lightest color stop of neutral color"
+        },
+        "20": {
+          "type": "color",
+          "value": "{jds.color.gray.20}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "30": {
+          "type": "color",
+          "value": "{jds.color.gray.30}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "40": {
+          "type": "color",
+          "value": "{jds.color.gray.40}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "50": {
+          "type": "color",
+          "value": "{jds.color.gray.50}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "60": {
+          "type": "color",
+          "value": "{jds.color.gray.60}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "70": {
+          "type": "color",
+          "value": "{jds.color.gray.70}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "80": {
+          "type": "color",
+          "value": "{jds.color.gray.80}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "90": {
+          "type": "color",
+          "value": "{jds.color.gray.90}",
+          "description": "Lighter color stop of neutral color"
+        },
+        "100": {
+          "type": "color",
+          "value": "{jds.color.gray.100}",
+          "description": "Darkest color stop of neutral color, often the basis for text color"
+        }
+      },
+      "trusted-blue": {
+        "10": {
+          "type": "color",
+          "value": "#e9f9ff",
+          "description": "Trusted Blue 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#cff2ff",
+          "description": "Trusted Blue 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#b6ebff",
+          "description": "Trusted Blue 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#1fc3ff",
+          "description": "Trusted Blue 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#0099d1",
+          "description": "Trusted Blue 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#00739d",
+          "description": "Trusted Blue 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#006083",
+          "description": "Trusted Blue 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#004e6a",
+          "description": "Trusted Blue 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#00435c",
+          "description": "Trusted Blue 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#00384d",
+          "description": "Trusted Blue 100"
+        }
+      },
+      "deep-blue": {
+        "10": {
+          "type": "color",
+          "value": "#F6F7F9",
+          "description": "Palette Deep Blue 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#ECF0F3",
+          "description": "Palette Deep Blue 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#E0E5EB",
+          "description": "Palette Deep Blue 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#8C9FB5",
+          "description": "Palette Deep Blue 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#5F7995",
+          "description": "Palette Deep Blue 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#3C4C5E",
+          "description": "Palette Deep Blue 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#344151",
+          "description": "Palette Deep Blue 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#2A3541",
+          "description": "Palette Deep Blue 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#242D38",
+          "description": "Palette Deep Blue 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#1E262F",
+          "description": "Palette Deep Blue 100"
+        }
+      },
+      "teal": {
+        "10": {
+          "type": "color",
+          "value": "#ecf8f8",
+          "description": "Teal 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#ddf3f2",
+          "description": "Teal 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#cfeded",
+          "description": "Teal 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#9edbda",
+          "description": "Teal 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#7dcfcd",
+          "description": "Teal 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#66c7c5",
+          "description": "Teal 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#4cbdbb",
+          "description": "Teal Blue 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#41afad",
+          "description": "Teal 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#3ba09e",
+          "description": "Teal 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#379593",
+          "description": "Teal 100"
+        }
+      },
+      "red": {
+        "10": {
+          "type": "color",
+          "value": "#FDF2F2",
+          "description": "Palette Red 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#F8D4D3",
+          "description": "Palette Red 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#F7CFCE",
+          "description": "Palette Red 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#E86F6D",
+          "description": "Palette Red 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#E03B38",
+          "description": "Palette Red 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#c4221f",
+          "description": "Palette Red 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#B01F1C",
+          "description": "Palette Red 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#9A1B18",
+          "description": "Palette Red 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#8D1816",
+          "description": "Palette Red 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#801614",
+          "description": "Palette Red 100"
+        }
+      },
+      "yellow": {
+        "10": {
+          "type": "color",
+          "value": "#FFF5EB",
+          "description": "Palette Yellow 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#FFEAD1",
+          "description": "Palette Yellow 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#FFE2C2",
+          "description": "Palette Yellow 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#FFC17A",
+          "description": "Palette Yellow 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#FFB561",
+          "description": "Palette Yellow 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#ff9d2e",
+          "description": "Palette Yellow 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#FF8F0F",
+          "description": "Palette Yellow 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#E57A00",
+          "description": "Palette Yellow 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#DB7400",
+          "description": "Palette Yellow 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#C76A00",
+          "description": "Palette Yellow 100"
+        }
+      },
+      "green": {
+        "10": {
+          "type": "color",
+          "value": "#EBFFEF",
+          "description": "Palette Green 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#E0F5E5",
+          "description": "Palette Green 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#D0F0D7",
+          "description": "Palette Green 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#6CD085",
+          "description": "Palette Green 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#36AB53",
+          "description": "Palette Green 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#2a8440",
+          "description": "Palette Green 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#247036",
+          "description": "Palette Green 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#1E5D2D",
+          "description": "Palette Green 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#1A5127",
+          "description": "Palette Green 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#164622",
+          "description": "Palette Green 100"
+        }
+      },
+      "blue": {
+        "10": {
+          "type": "color",
+          "value": "#EFF3FB",
+          "description": "Palette Blue 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#DFE7F7",
+          "description": "Palette Blue 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#CEDCF2",
+          "description": "Palette Blue 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#81A4DF",
+          "description": "Palette Blue 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#5986D4",
+          "description": "Palette Blue 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#4074ce",
+          "description": "Palette Blue 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#3063BB",
+          "description": "Palette Blue 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#2C5AAA",
+          "description": "Palette Blue 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#274F96",
+          "description": "Palette Blue 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#254D92",
+          "description": "Palette Blue 100"
+        }
+      },
+      "gray": {
+        "10": {
+          "type": "color",
+          "value": "#f8f9fA",
+          "description": "Color Gray 10"
+        },
+        "20": {
+          "type": "color",
+          "value": "#f0f3f6",
+          "description": "Color Gray 20"
+        },
+        "30": {
+          "type": "color",
+          "value": "#dfe5ec",
+          "description": "Color Gray 30"
+        },
+        "40": {
+          "type": "color",
+          "value": "#d1d9e2",
+          "description": "Color Gray 40"
+        },
+        "50": {
+          "type": "color",
+          "value": "#c0ccd8",
+          "description": "Color Gray 50"
+        },
+        "60": {
+          "type": "color",
+          "value": "#b1bfce",
+          "description": "Color Gray 60"
+        },
+        "70": {
+          "type": "color",
+          "value": "#7d94ac",
+          "description": "Color Gray 70"
+        },
+        "80": {
+          "type": "color",
+          "value": "#6d87a2",
+          "description": "Color Gray 80"
+        },
+        "90": {
+          "type": "color",
+          "value": "#5f758c",
+          "description": "Color Gray 90"
+        },
+        "100": {
+          "type": "color",
+          "value": "#28333f",
+          "description": "Color Gray 100"
+        }
+      },
+      "purple": {
+        "10": {
+          "value": "#F8F1F8",
+          "type": "color",
+          "description": "Color Purple 10"
+        },
+        "20": {
+          "value": "#F0E4F1",
+          "type": "color",
+          "description": "Color Purple 20"
+        },
+        "30": {
+          "value": "#E5D0E7",
+          "type": "color",
+          "description": "Color Purple 30"
+        },
+        "40": {
+          "value": "#D0AAD4",
+          "type": "color",
+          "description": "Color Purple 40"
+        },
+        "50": {
+          "value": "#B87EBE",
+          "type": "color",
+          "description": "Color Purple 50"
+        },
+        "60": {
+          "value": "#954F9C",
+          "type": "color",
+          "description": "Color Purple 60"
+        },
+        "70": {
+          "value": "#85468B",
+          "type": "color",
+          "description": "Color Purple 70"
+        },
+        "80": {
+          "value": "#713C76",
+          "type": "color",
+          "description": "Color Purple 80"
+        },
+        "90": {
+          "value": "#5E3262",
+          "type": "color",
+          "description": "Color Purple 90"
+        },
+        "100": {
+          "value": "#47264A",
+          "type": "color",
+          "description": "Color Purple 100"
+        }
+      },
+      "black": {
+        "type": "color",
+        "value": "#000000",
+        "description": "Color Black"
+      },
+      "transparent": {
+        "type": "color",
+        "value": "transparent",
+        "description": "Color Transparent"
+      },
+      "transparent-virtual": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.01)",
+        "description": "Virtually transparent for enabling focus shadows"
+      },
+      "white": {
+        "type": "color",
+        "value": "#ffffff",
+        "description": "Color White"
+      }
+    },
+    "font-family": {
+      "heading": {
+        "type": "fontFamilies",
+        "value": "'Source Sans 3', 'Helvetica', 'Arial', sans-serif",
+        "description": "Global font-family for headings"
+      },
+      "label": {
+        "type": "fontFamilies",
+        "value": "'Source Sans 3', 'Helvetica', 'Arial', sans-serif",
+        "description": "Global font-family for label text"
+      },
+      "body": {
+        "type": "fontFamilies",
+        "value": "'Source Sans 3', 'Helvetica', 'Arial', sans-serif",
+        "description": "Global font-family for body text"
+      },
+      "monospace": {
+        "type": "fontFamilies",
+        "value": "'Source Code Pro', 'Courier New', 'Courier', monospace",
+        "description": "Global font-family for monospace text"
+      }
+    },
+    "font-size": {
+      "1": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.1}",
+        "description": "Font Size 1"
+      },
+      "2": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.2}",
+        "description": "Font Size 2"
+      },
+      "3": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.3}",
+        "description": "Font Size 3"
+      },
+      "4": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.4}",
+        "description": "Font Size 4"
+      },
+      "5": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.5}",
+        "description": "Font Size 5"
+      },
+      "6": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.6}",
+        "description": "Font Size 6"
+      },
+      "7": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.7}",
+        "description": "Font Size 7"
+      },
+      "8": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.8}",
+        "description": "Font Size 8"
+      },
+      "9": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.9}",
+        "description": "Font Size 9"
+      },
+      "10": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.10}",
+        "description": "Font Size 10"
+      },
+      "11": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.11}",
+        "description": "Font Size 11"
+      },
+      "12": {
+        "type": "fontSizes",
+        "value": "{jds.font-scale.fixed.12}",
+        "description": "Font Size 12"
+      },
+      "base": {
+        "type": "fontSizes",
+        "value": "16",
+        "description": "Base font size used in typographic scale"
+      }
+    },
+    "font-scale": {
+      "fixed": {
+        "1": {
+          "type": "sizing",
+          "value": "12",
+          "description": "Fixed font scale size 1"
+        },
+        "2": {
+          "type": "sizing",
+          "value": "14",
+          "description": "Fixed font scale size 2"
+        },
+        "3": {
+          "type": "sizing",
+          "value": "16",
+          "description": "Fixed font scale size 3"
+        },
+        "4": {
+          "type": "sizing",
+          "value": "20",
+          "description": "Fixed font scale size 4"
+        },
+        "5": {
+          "type": "sizing",
+          "value": "24",
+          "description": "Fixed font scale size 5"
+        },
+        "6": {
+          "type": "sizing",
+          "value": "32",
+          "description": "Fixed font scale size 6"
+        },
+        "7": {
+          "type": "sizing",
+          "value": "40",
+          "description": "Fixed font scale size 7"
+        },
+        "8": {
+          "type": "sizing",
+          "value": "56",
+          "description": "Fixed font scale size 8"
+        },
+        "9": {
+          "type": "sizing",
+          "value": "64",
+          "description": "Fixed font scale size 9"
+        },
+        "10": {
+          "type": "sizing",
+          "value": "72",
+          "description": "Fixed font scale size 10"
+        },
+        "11": {
+          "type": "sizing",
+          "value": "84",
+          "description": "Fixed font scale size 11"
+        },
+        "12": {
+          "type": "sizing",
+          "value": "96",
+          "description": "Fixed font scale size 12"
+        }
+      },
+      "harmonic": {
+        "1": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.2} / {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 1"
+        },
+        "2": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.3} / {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 2"
+        },
+        "3": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.4} / {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 3"
+        },
+        "4": {
+          "type": "sizing",
+          "value": "{jds.font-size.base}",
+          "description": "Harmonic font scale size typically corresponding to the base font size at 100%"
+        },
+        "5": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.4} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 5"
+        },
+        "6": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.5} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 6"
+        },
+        "7": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.6} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 7"
+        },
+        "8": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.7} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 8"
+        },
+        "9": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.8} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 9"
+        },
+        "10": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.9} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 10"
+        },
+        "11": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.10} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 11"
+        },
+        "12": {
+          "type": "sizing",
+          "value": "round({jds.font-scale.harmonic.11} * {jds.font-scale.harmonic.ratios.selection})",
+          "description": "Harmonic font scale size 12"
+        },
+        "ratios": {
+          "selection": {
+            "type": "sizing",
+            "value": "{jds.font-scale.harmonic.ratios.1250-major-third}",
+            "description": "Current selection of harmonic ratio to be applied to harmonic font scale"
+          },
+          "1067-minor-second": {
+            "type": "sizing",
+            "value": "1.067",
+            "description": "Scale 1.067 - Minor Second"
+          },
+          "1125-major-second": {
+            "type": "sizing",
+            "value": "1.125",
+            "description": "Scale 1.125 - Major Second"
+          },
+          "1200-minor-third": {
+            "type": "sizing",
+            "value": "1.200",
+            "description": "Scale 1.200 - Minor Third"
+          },
+          "1250-major-third": {
+            "type": "sizing",
+            "value": "1.250",
+            "description": "Scale 1.250 - Major Third"
+          },
+          "1333-perfect-fourth": {
+            "type": "sizing",
+            "value": "1.333",
+            "description": "Scale 1.333 - Perfect Fourth"
+          },
+          "1414-augmented-fourth": {
+            "type": "sizing",
+            "value": "1.414",
+            "description": "Scale 1.414 - Augmented Fourth"
+          },
+          "1500-perfect-fifth": {
+            "type": "sizing",
+            "value": "1.500",
+            "description": "Scale 1.500 - Perfect Fifth"
+          },
+          "1618-golden-ratio": {
+            "type": "sizing",
+            "value": "1.618",
+            "description": "Scale 1.618 - Golden Ratio"
+          }
+        }
+      },
+      "progressive": {
+        "1": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.2} + (round((2-2) / 4) - 1) * 2",
+          "description": "Progressive font scale size 1"
+        },
+        "2": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.3} + (round((2-2) / 4) - 1) * 2",
+          "description": "Progressive font scale size 2"
+        },
+        "3": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.4} + (round((3-2) / 4) - 1) * 2",
+          "description": "Progressive font scale size 3"
+        },
+        "4": {
+          "type": "sizing",
+          "value": "{jds.font-size.base}",
+          "description": "Progressive font scale size typically corresponding to the base font size at 100%"
+        },
+        "5": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.4} + (round((5-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 5"
+        },
+        "6": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.5} + (round((6-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 6"
+        },
+        "7": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.6} + (round((7-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 7"
+        },
+        "8": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.7} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 8"
+        },
+        "9": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.8} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 9"
+        },
+        "10": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.9} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 10"
+        },
+        "11": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.10} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 11"
+        },
+        "12": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive.11} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive font scale size 12"
+        }
+      },
+      "progressive-ratio": {
+        "1": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.2} + (round((2-2) / 4) - 1) * 2",
+          "description": "Progressive ratio font scale size 1"
+        },
+        "2": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.3} + (round((2-2) / 4) - 1) * 2",
+          "description": "Progressive ratio font scale size 2"
+        },
+        "3": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.4} + (round((3-2) / 4) - 1) * 2",
+          "description": "Progressive ratio font scale size 3"
+        },
+        "4": {
+          "type": "sizing",
+          "value": "{jds.font-size.base}",
+          "description": "Progressive ratio font scale size typically corresponding to the base font size at 100%"
+        },
+        "5": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.4} + (round((5-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 5"
+        },
+        "6": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.5} + (round((6-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 6"
+        },
+        "7": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.6} + (round((7-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 7"
+        },
+        "8": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.7} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 8"
+        },
+        "9": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.8} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 9"
+        },
+        "10": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.9} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 10"
+        },
+        "11": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.10} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 11"
+        },
+        "12": {
+          "type": "sizing",
+          "value": "{jds.font-scale.progressive-ratio.11} + (round((8-2) / 4) + 1) * 2",
+          "description": "Progressive ratio font scale size 12"
+        }
+      }
+    },
+    "line-height": {
+      "fixed": {
+        "1": {
+          "type": "lineHeights",
+          "value": "15",
+          "description": "Fixed line-height size 1"
+        },
+        "2": {
+          "type": "lineHeights",
+          "value": "18",
+          "description": "Fixed line-height size 2"
+        },
+        "3": {
+          "type": "lineHeights",
+          "value": "20",
+          "description": "Fixed line-height size 3"
+        },
+        "4": {
+          "type": "lineHeights",
+          "value": "25",
+          "description": "Fixed line-height size 4"
+        },
+        "5": {
+          "type": "lineHeights",
+          "value": "30",
+          "description": "Fixed line-height size 5"
+        },
+        "6": {
+          "type": "lineHeights",
+          "value": "40",
+          "description": "Fixed line-height size 6"
+        },
+        "7": {
+          "type": "lineHeights",
+          "value": "50",
+          "description": "Fixed line-height size 7"
+        },
+        "8": {
+          "type": "lineHeights",
+          "value": "70",
+          "description": "Fixed line-height size 8"
+        },
+        "9": {
+          "type": "lineHeights",
+          "value": "80",
+          "description": "Fixed line-height size 9"
+        },
+        "10": {
+          "type": "lineHeights",
+          "value": "90",
+          "description": "Fixed line-height size 10"
+        },
+        "11": {
+          "type": "lineHeights",
+          "value": "105",
+          "description": "Fixed line-height size 11"
+        },
+        "12": {
+          "type": "lineHeights",
+          "value": "120",
+          "description": "Fixed line-height size 12"
+        }
+      },
+      "heading": {
+        "type": "lineHeights",
+        "value": "125%",
+        "description": "Global line-height for headings"
+      },
+      "body": {
+        "type": "lineHeights",
+        "value": "150%",
+        "description": "Global line-height for body text"
+      },
+      "label": {
+        "type": "lineHeights",
+        "value": "150%",
+        "description": "Global line-height for label text"
+      },
+      "monospace": {
+        "type": "lineHeights",
+        "value": "125%",
+        "description": "Global line-height for monospace text"
+      }
+    },
+    "text-case": {
+      "capitalize": {
+        "type": "textCase",
+        "value": "capitalize",
+        "description": "Global capitalize for text."
+      },
+      "none": {
+        "type": "textCase",
+        "value": "none",
+        "description": "Global default case for text."
+      },
+      "uppercase": {
+        "type": "textCase",
+        "value": "uppercase",
+        "description": "Global uppercase for text."
+      }
+    },
+    "font-weight": {
+      "100-thin": {
+        "type": "fontWeights",
+        "value": "100",
+        "description": "Global font-weight property for Thin (Hairline) text per OpenType specification. In case of mapping error, replace value with precise weight name. This weight is rarely used."
+      },
+      "200-extralight": {
+        "type": "fontWeights",
+        "value": "200",
+        "description": "Global font-weight property for Extra Light (Ultra Light) text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "300-light": {
+        "type": "fontWeights",
+        "value": "300",
+        "description": "Global font-weight property for Light text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "400-normal": {
+        "type": "fontWeights",
+        "value": "400",
+        "description": "Global font-weight property for Normal (Regular, Book) text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "500-medium": {
+        "type": "fontWeights",
+        "value": "500",
+        "description": "Global font-weight property for Medium text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "600-semibold": {
+        "type": "fontWeights",
+        "value": "600",
+        "description": "Global font-weight property for Semi Bold (Demi Bold) text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "700-bold": {
+        "type": "fontWeights",
+        "value": "700",
+        "description": "Global font-weight property for Bold text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "800-extrabold": {
+        "type": "fontWeights",
+        "value": "800",
+        "description": "Global font-weight property for Extra Bold (Ultra Bold) text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "900-black": {
+        "type": "fontWeights",
+        "value": "900",
+        "description": "Global font-weight property for Black (Heavy) text per OpenType specification. In case of mapping error, replace value with precise weight name."
+      },
+      "950-extrablack": {
+        "type": "fontWeights",
+        "value": "950",
+        "description": "Global font-weight property for Extra Black (Ultra Black) text per OpenType specification. In case of mapping error, replace value with precise weight name. This weight is rarely used."
+      }
+    },
+    "letter-spacing": {
+      "normal": {
+        "type": "letterSpacing",
+        "value": "0",
+        "description": "Global default letter-spacing for text."
+      }
+    },
+    "media-query": {
+      "phone": {
+        "type": "sizing",
+        "value": "580",
+        "description": "Small form factor for devices such as a phone in a vertical orientation."
+      },
+      "phone-wide": {
+        "type": "sizing",
+        "value": "768",
+        "description": "Medium form factor for devices such as a phone in horizontal orientation or a tablet in vertical orientation."
+      },
+      "tablet": {
+        "type": "sizing",
+        "value": "1024",
+        "description": "Large form factor for devices similar to a tablet in landscape orientation and smaller than desktop."
+      }
+    },
+    "paragraph-spacing": {
+      "normal": {
+        "type": "paragraphSpacing",
+        "value": "0",
+        "description": "Global default paragraph spacing for text."
+      }
+    },
+    "size": {
+      "1": {
+        "type": "sizing",
+        "value": "8",
+        "description": "1x unit of 8-pixel grid"
+      },
+      "2": {
+        "type": "sizing",
+        "value": "16",
+        "description": "2x unit of 8-pixel grid"
+      },
+      "3": {
+        "type": "sizing",
+        "value": "24",
+        "description": "3x unit of 8-pixel grid"
+      },
+      "4": {
+        "type": "sizing",
+        "value": "32",
+        "description": "4x unit of 8-pixel grid"
+      },
+      "5": {
+        "type": "sizing",
+        "value": "48",
+        "description": "6x unit of 8-pixel grid"
+      },
+      "6": {
+        "type": "sizing",
+        "value": "64",
+        "description": "8x unit of 8-pixel grid"
+      },
+      "7": {
+        "type": "sizing",
+        "value": "80",
+        "description": "10x unit of 8-pixel grid"
+      }
+    },
+    "space": {
+      "1": {
+        "type": "spacing",
+        "value": "2",
+        "description": "One quarter unit of 8-pixel grid"
+      },
+      "2": {
+        "type": "spacing",
+        "value": "4",
+        "description": "One half unit of 8-pixel grid"
+      },
+      "3": {
+        "type": "spacing",
+        "value": "8",
+        "description": "Unit of 8-pixel grid"
+      },
+      "4": {
+        "type": "spacing",
+        "value": "12",
+        "description": "150% of base unit of 8-pixel grid"
+      },
+      "5": {
+        "type": "spacing",
+        "value": "16",
+        "description": "200% of base unit of 8-pixel grid"
+      },
+      "6": {
+        "type": "spacing",
+        "value": "20",
+        "description": "250% of base unit of 8-pixel grid"
+      },
+      "7": {
+        "type": "spacing",
+        "value": "24",
+        "description": "300% of base unit of 8-pixel grid"
+      },
+      "8": {
+        "type": "spacing",
+        "value": "28",
+        "description": "350% of base unit of 8-pixel grid"
+      },
+      "9": {
+        "type": "spacing",
+        "value": "32",
+        "description": "400% of base unit of 8-pixel grid"
+      },
+      "10": {
+        "type": "spacing",
+        "value": "40",
+        "description": "500% of base unit of 8-pixel grid"
+      },
+      "11": {
+        "type": "spacing",
+        "value": "48",
+        "description": "600% of base unit of 8-pixel grid"
+      },
+      "12": {
+        "type": "spacing",
+        "value": "64",
+        "description": "800% of base unit of 8-pixel grid"
+      },
+      "13": {
+        "type": "spacing",
+        "value": "80",
+        "description": "1000% of base unit of 8-pixel grid"
+      },
+      "14": {
+        "type": "spacing",
+        "value": "96",
+        "description": "1200% of base unit of 8-pixel grid"
+      },
+      "15": {
+        "type": "spacing",
+        "value": "80",
+        "description": "2000% of base unit of 8-pixel grid"
+      }
+    },
+    "text-decoration": {
+      "line-through": {
+        "type": "textDecoration",
+        "value": "line-through",
+        "description": "Global line-through decoration for text."
+      },
+      "none": {
+        "type": "textDecoration",
+        "value": "none",
+        "description": "Global default decoration for text."
+      },
+      "underline": {
+        "type": "textDecoration",
+        "value": "underline",
+        "description": "Global underline decoration for text."
+      }
+    },
+    "duration": {
+      "immediate": {
+        "value": "70ms",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "faster": {
+        "value": "110ms",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "fast": {
+        "value": "150ms",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "moderate": {
+        "value": "250ms",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "slow": {
+        "value": "400ms",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "slower": {
+        "value": "700ms",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      }
+    },
+    "transition": {
+      "ease-in": {
+        "value": "cubic-bezier({jds.cubic-bezier.accelerate})",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "ease-out": {
+        "value": "cubic-bezier({jds.cubic-bezier.decelerate})",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "ease-in-out": {
+        "value": "cubic-bezier({jds.cubic-bezier.accelerate-decelerate})",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "ease-none": {
+        "value": "cubic-bezier(0, 0, 1, 1)",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      }
+    },
+    "cubic-bezier": {
+      "accelerate": {
+        "value": "0.65, 0, 1, 1",
+        "type": "other",
+        "description": "Experimental token for cubic bezier"
+      },
+      "decelerate": {
+        "value": "0, 0, 0.35, 1",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      },
+      "accelerate-decelerate": {
+        "value": "0.5, 0, 0.5, 1",
+        "type": "other",
+        "description": "Experimental token for motion duration"
+      }
+    }
+  }
+}

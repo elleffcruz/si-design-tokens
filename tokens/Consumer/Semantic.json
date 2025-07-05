@@ -1,0 +1,1318 @@
+{
+  "jds": {
+    "font": {
+      "display": {
+        "value": {
+          "fontFamily": "{jds.font-family.heading}",
+          "fontWeight": "{jds.font-weight.400-normal}",
+          "lineHeight": "{jds.line-height.body}",
+          "fontSize": "{jds.font-size.8}",
+          "letterSpacing": "{jds.letter-spacing.normal}",
+          "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+          "textCase": "{jds.text-case.none}",
+          "textDecoration": "{jds.text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Font properties for display text"
+      },
+      "heading": {
+        "1": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.7}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 1 text"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.6}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 2 text"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.5}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 3 text"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.4}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 4 text"
+        },
+        "5": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 5 text"
+        },
+        "6": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.2}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 6 text"
+        },
+        "7": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.1}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for heading 7 text"
+        },
+        "eyebrow": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.4}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.uppercase}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for eyebrow text typically used in conjunction with a heading"
+        },
+        "slug": {
+          "value": {
+            "fontFamily": "{jds.font-family.heading}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.heading}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.uppercase}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for slug text typically used as a section title within a vertical navigation"
+        }
+      },
+      "body": {
+        "large": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.5}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for large body text"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for medium body text (formerly body-1)"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.2}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for small body text (formerly body-2)"
+        },
+        "x-small": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.1}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for x-small body text (formerly body-3)"
+        }
+      },
+      "label": {
+        "large": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.5}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for large label text"
+        },
+        "large-strong": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.5}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for strong large label text"
+        },
+        "large-stronger": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.700-bold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.5}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for large label text with a stronger font weight"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for medium label text"
+        },
+        "medium-strong": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for strong medium label text"
+        },
+        "medium-stronger": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.700-bold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for label text with a stronger font weight"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.2}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for label text."
+        },
+        "small-strong": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.2}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for small label text with a strong font weight"
+        },
+        "small-stronger": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.700-bold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.2}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for small label text with a stronger font weight"
+        },
+        "x-small": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.1}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for x-small label text"
+        },
+        "x-small-stronger": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.700-bold}",
+            "lineHeight": "{jds.line-height.label}",
+            "fontSize": "{jds.font-size.1}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for extra small label text with a stronger font weight"
+        }
+      },
+      "code": {
+        "medium": {
+          "value": {
+            "fontFamily": "{jds.font-family.monospace}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.monospace}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for medium code text"
+        }
+      },
+      "link": {
+        "default": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for default state of link text"
+        },
+        "hover": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.underline}"
+          },
+          "type": "typography",
+          "description": "Font properties for hover state of link text"
+        },
+        "active": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.underline}"
+          },
+          "type": "typography",
+          "description": "Font properties for active state of link text"
+        },
+        "visited": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for visited state of link text"
+        }
+      },
+      "button": {
+        "label": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for button text label"
+        }
+      },
+      "toggle-button": {
+        "label": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for toggle button text label"
+        }
+      },
+      "table": {
+        "header-cell": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.700-bold}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for table header cell text."
+        },
+        "data-cell": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for table data cell text."
+        },
+        "data-cell-action": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.700-bold}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for table data cell text."
+        }
+      },
+      "progress": {
+        "step-inner-text": {
+          "value": {
+            "fontFamily": "{jds.font-family.label}",
+            "fontWeight": "{jds.font-weight.400-normal}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.2}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textCase": "{jds.text-case.none}",
+            "textDecoration": "{jds.text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Font properties for progress step inner text"
+        }
+      }
+    },
+    "focus": {
+      "shadow": {
+        "regular": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2",
+            "color": "{jds.color.border.focus}66",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Focus shadow using 40% opacity of focus color for use over light backgrounds"
+        },
+        "inverse": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2",
+            "color": "{jds.color.white}66",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Focus shadow for use over dark backgrounds"
+        },
+        "error": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2",
+            "color": "{jds.color.border.error}66",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Error focus shadow for use over light backgrounds"
+        },
+        "error-inverse": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2",
+            "color": "#e69acf66",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Error focus shadow for use over dark backgrounds"
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "neutral": {
+          "value": "{jds.color.palette-neutral.20}",
+          "type": "color",
+          "description": "Neutral background color"
+        },
+        "neutral-hover": {
+          "value": "{jds.color.palette-neutral.30}",
+          "type": "color",
+          "description": "Neutral background color hover state"
+        },
+        "neutral-active": {
+          "value": "{jds.color.palette-neutral.40}",
+          "type": "color",
+          "description": "Neutral background color active state"
+        },
+        "neutral-subtle": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Light neutral background color"
+        },
+        "neutral-subtle-hover": {
+          "value": "{jds.color.palette-neutral.10}",
+          "type": "color",
+          "description": "Light neutral background color hover state"
+        },
+        "neutral-subtle-active": {
+          "value": "{jds.color.palette-neutral.20}",
+          "type": "color",
+          "description": "Light neutral background color active state"
+        },
+        "neutral-inverse": {
+          "value": "{jds.color.palette-neutral.100}",
+          "type": "color",
+          "description": "Neutral inverse background color"
+        },
+        "page": {
+          "value": "{jds.color.palette-neutral.10}",
+          "type": "color",
+          "description": "Background color for page"
+        },
+        "track": {
+          "value": "{jds.color.palette-neutral.40}",
+          "type": "color",
+          "description": "Default background color for track element"
+        },
+        "progress": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "Color used for progress indicators"
+        },
+        "error": {
+          "value": "{jds.color.red.60}",
+          "type": "color",
+          "description": "Background color for error"
+        },
+        "information": {
+          "value": "{jds.color.blue.60}",
+          "type": "color",
+          "description": "Background color for information"
+        },
+        "success": {
+          "value": "{jds.color.green.60}",
+          "type": "color",
+          "description": "Background color for success"
+        },
+        "warning": {
+          "value": "{jds.color.yellow.60}",
+          "type": "color",
+          "description": "Background color for warning"
+        },
+        "error-subtle": {
+          "value": "{jds.color.red.10}",
+          "type": "color",
+          "description": "Subtle background color for error"
+        },
+        "information-subtle": {
+          "value": "{jds.color.blue.10}",
+          "type": "color",
+          "description": "Subtle background color for information"
+        },
+        "success-subtle": {
+          "value": "{jds.color.green.10}",
+          "type": "color",
+          "description": "Subtle background color for success"
+        },
+        "warning-subtle": {
+          "value": "{jds.color.yellow.10}",
+          "type": "color",
+          "description": "Subtle background color for warning"
+        },
+        "selected": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "Color indicating a selected state"
+        },
+        "selected-hover": {
+          "value": "{jds.color.palette-brand.70}",
+          "type": "color",
+          "description": "Color indicating a selected hover state"
+        },
+        "selected-active": {
+          "value": "{jds.color.palette-brand.80}",
+          "type": "color",
+          "description": "Color indicating a selected active state"
+        },
+        "selected-subtle": {
+          "value": "{jds.color.palette-brand.10}",
+          "type": "color",
+          "description": "Lighter color indicating a selected state"
+        },
+        "selected-subtle-hover": {
+          "value": "{jds.color.palette-brand.20}",
+          "type": "color",
+          "description": "Lighter color indicating a selected hover state"
+        },
+        "selected-subtle-active": {
+          "value": "{jds.color.palette-brand.30}",
+          "type": "color",
+          "description": "Lighter color indicating a selected active state"
+        },
+        "input": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Background color for inputs"
+        },
+        "input-hover": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Background color for hover state of inputs"
+        },
+        "input-active": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Background color for hover state of inputs"
+        },
+        "input-read-only": {
+          "value": "{jds.color.palette-neutral.20}",
+          "type": "color",
+          "description": "Background color for read-only state of inputs"
+        },
+        "brand": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "To be written"
+        },
+        "brand-hover": {
+          "value": "{jds.color.palette-brand.70}",
+          "type": "color",
+          "description": "Brand color for hover state of background"
+        },
+        "brand-active": {
+          "value": "{jds.color.palette-brand.80}",
+          "type": "color",
+          "description": "Brand color for active state of background"
+        },
+        "brand-subtle": {
+          "value": "{jds.color.palette-brand.10}",
+          "type": "color",
+          "description": "Light brand color for background"
+        },
+        "brand-subtle-hover": {
+          "value": "{jds.color.palette-brand.20}",
+          "type": "color",
+          "description": "Light brand color for background hover"
+        },
+        "brand-subtle-active": {
+          "value": "{jds.color.palette-brand.30}",
+          "type": "color",
+          "description": "Light brand color for background active"
+        },
+        "brand-accent-1": {
+          "value": "{jds.color.palette-brand-accent-1.60}",
+          "type": "color",
+          "description": "Brand accent 1 color for background"
+        },
+        "brand-accent-1-hover": {
+          "value": "{jds.color.palette-brand-accent-1.70}",
+          "type": "color",
+          "description": "Brand accent 1 color for hover state of background"
+        },
+        "brand-accent-1-active": {
+          "value": "{jds.color.palette-brand-accent-1.80}",
+          "type": "color",
+          "description": "Brand accent 1 color for hover state of background"
+        },
+        "brand-accent-1-subtle": {
+          "value": "{jds.color.palette-brand-accent-1.10}",
+          "type": "color",
+          "description": "Light brand accent 1 color"
+        },
+        "brand-accent-1-subtle-hover": {
+          "value": "{jds.color.palette-brand-accent-1.20}",
+          "type": "color",
+          "description": "Light brand accent 1 color hover"
+        },
+        "brand-accent-1-subtle-active": {
+          "value": "{jds.color.palette-brand-accent-1.30}",
+          "type": "color",
+          "description": "Light brand accent 1 color active"
+        },
+        "brand-accent-2": {
+          "value": "{jds.color.palette-brand-accent-2.60}",
+          "type": "color",
+          "description": "Brand accent 2 color for background"
+        },
+        "brand-accent-2-hover": {
+          "value": "{jds.color.palette-brand-accent-2.70}",
+          "type": "color",
+          "description": "Brand accent 2 color for hover state of background"
+        },
+        "brand-accent-2-active": {
+          "value": "{jds.color.palette-brand-accent-2.80}",
+          "type": "color",
+          "description": "Brand accent 2 color for active state of background"
+        },
+        "brand-accent-2-subtle": {
+          "value": "{jds.color.palette-brand-accent-2.10}",
+          "type": "color",
+          "description": "Light brand accent 2 color for background"
+        },
+        "brand-accent-2-subtle-hover": {
+          "value": "{jds.color.palette-brand-accent-2.20}",
+          "type": "color",
+          "description": "Light brand accent 2 color for hover state of background"
+        },
+        "brand-accent-2-subtle-active": {
+          "value": "{jds.color.palette-brand-accent-2.30}",
+          "type": "color",
+          "description": "Light brand accent 2 color for active state of background"
+        }
+      },
+      "border": {
+        "regular": {
+          "value": "{jds.color.palette-neutral.70}",
+          "type": "color",
+          "description": "Regular border color for UI elements"
+        },
+        "inverse": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Inverse border color for UI elements"
+        },
+        "focus": {
+          "value": "{jds.color.trusted-blue.50}",
+          "type": "color",
+          "description": "Border color used to indicate focus state"
+        },
+        "focus-inverse": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Inverse border color used to indicate focus state over a dark background"
+        },
+        "separator": {
+          "value": "{jds.color.palette-neutral.40}",
+          "type": "color",
+          "description": "Border color of separator"
+        },
+        "error": {
+          "value": "{jds.color.red.60}",
+          "type": "color",
+          "description": "Border color for error"
+        },
+        "information": {
+          "value": "{jds.color.blue.60}",
+          "type": "color",
+          "description": "Border color for information"
+        },
+        "success": {
+          "value": "{jds.color.green.60}",
+          "type": "color",
+          "description": "Border color for success"
+        },
+        "warning": {
+          "value": "{jds.color.yellow.60}",
+          "type": "color",
+          "description": "Border color for warning"
+        },
+        "selected": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "Border color indicating a selected state"
+        },
+        "selected-hover": {
+          "value": "{jds.color.palette-brand.70}",
+          "type": "color",
+          "description": "Border color indicating a selected hover state"
+        },
+        "selected-active": {
+          "value": "{jds.color.palette-brand.80}",
+          "type": "color",
+          "description": "Border color indicating a selected active state"
+        },
+        "input": {
+          "value": "{jds.color.border.regular}",
+          "type": "color",
+          "description": "Border color for inputs"
+        },
+        "brand": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "Brand color for border"
+        },
+        "brand-hover": {
+          "value": "{jds.color.palette-brand.70}",
+          "type": "color",
+          "description": "Brand color for hover state of border"
+        },
+        "brand-active": {
+          "value": "{jds.color.palette-brand.80}",
+          "type": "color",
+          "description": "Brand color for active state of border"
+        },
+        "brand-accent-1": {
+          "value": "{jds.color.palette-brand-accent-1.60}",
+          "type": "color",
+          "description": "Brand accent 1 color for border"
+        },
+        "brand-accent-1-hover": {
+          "value": "{jds.color.palette-brand-accent-1.70}",
+          "type": "color",
+          "description": "Brand accent 1 color for hover state of border"
+        },
+        "brand-accent-1-active": {
+          "value": "{jds.color.palette-brand-accent-1.80}",
+          "type": "color",
+          "description": "Brand accent 1 color for active state of border"
+        },
+        "brand-accent-2": {
+          "value": "{jds.color.palette-brand-accent-2.60}",
+          "type": "color",
+          "description": "Brand accent 2 color for border"
+        },
+        "brand-accent-2-hover": {
+          "value": "{jds.color.palette-brand-accent-2.70}",
+          "type": "color",
+          "description": "Brand accent 2 color for hover state of border"
+        },
+        "brand-accent-2-active": {
+          "value": "{jds.color.palette-brand-accent-2.70}",
+          "type": "color",
+          "description": "Brand accent 2 color for active state of border"
+        }
+      },
+      "text": {
+        "regular": {
+          "value": "{jds.color.palette-neutral.100}",
+          "type": "color",
+          "description": "Regular text color"
+        },
+        "subtle": {
+          "value": "{jds.color.palette-neutral.90}",
+          "type": "color",
+          "description": "Subtle text color"
+        },
+        "inverse": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Inverse text color"
+        },
+        "error": {
+          "value": "{jds.color.red.60}",
+          "type": "color",
+          "description": "Error color for text"
+        },
+        "information": {
+          "value": "{jds.color.blue.60}",
+          "type": "color",
+          "description": "Information color for text"
+        },
+        "success": {
+          "value": "{jds.color.green.60}",
+          "type": "color",
+          "description": "Success color for text"
+        },
+        "warning": {
+          "value": "{jds.color.yellow.60}",
+          "type": "color",
+          "description": "Warning color for text"
+        },
+        "required": {
+          "value": "{jds.color.red.60}",
+          "type": "color",
+          "description": "Color for indicating required action"
+        },
+        "brand": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "Brand color for text"
+        },
+        "brand-hover": {
+          "value": "{jds.color.palette-brand.70}",
+          "type": "color",
+          "description": "Brand color for hover state of text"
+        },
+        "brand-active": {
+          "value": "{jds.color.palette-brand.80}",
+          "type": "color",
+          "description": "Brand color for active state of text"
+        },
+        "brand-accent-1": {
+          "value": "{jds.color.palette-brand-accent-1.60}",
+          "type": "color",
+          "description": "Brand accent 1 color for text"
+        },
+        "brand-accent-2": {
+          "value": "{jds.color.palette-brand-accent-2.60}",
+          "type": "color",
+          "description": "Brand accent 2 color for text"
+        },
+        "link-default": {
+          "value": "{jds.color.text.brand}",
+          "type": "color",
+          "description": "Link text color"
+        },
+        "link-hover": {
+          "value": "{jds.color.text.brand-hover}",
+          "type": "color",
+          "description": "Link text color hover"
+        },
+        "link-active": {
+          "value": "{jds.color.text.brand-active}",
+          "type": "color",
+          "description": "Link text color active"
+        },
+        "link-visited": {
+          "value": "{jds.color.purple.60}",
+          "type": "color",
+          "description": "Link text color visited"
+        },
+        "link-visited-hover": {
+          "value": "{jds.color.purple.70}",
+          "type": "color",
+          "description": "Link text color visited hover"
+        },
+        "link-visited-active": {
+          "value": "{jds.color.purple.80}",
+          "type": "color",
+          "description": "Link text color visited active"
+        },
+        "link-default-inverse": {
+          "value": "{jds.color.palette-brand.40}",
+          "type": "color",
+          "description": "Link text color on dark background"
+        },
+        "link-inverse-hover": {
+          "value": "{jds.color.palette-brand.30}",
+          "type": "color",
+          "description": "Text color for hover state of link on dark background"
+        },
+        "link-inverse-active": {
+          "value": "{jds.color.palette-brand.20}",
+          "type": "color",
+          "description": "Text color for active state of link on dark background"
+        }
+      },
+      "icon": {
+        "regular": {
+          "value": "{jds.color.palette-neutral.100}",
+          "type": "color",
+          "description": "Regular icon color"
+        },
+        "subtle": {
+          "value": "{jds.color.palette-neutral.90}",
+          "type": "color",
+          "description": "Subtle color for icons"
+        },
+        "inverse": {
+          "value": "{jds.color.white}",
+          "type": "color",
+          "description": "Inverse icon color"
+        },
+        "error": {
+          "value": "{jds.color.red.60}",
+          "type": "color",
+          "description": "Error color for icon"
+        },
+        "information": {
+          "value": "{jds.color.blue.60}",
+          "type": "color",
+          "description": "Information color for icon"
+        },
+        "success": {
+          "value": "{jds.color.green.60}",
+          "type": "color",
+          "description": "Success color for icon"
+        },
+        "warning": {
+          "value": "{jds.color.yellow.60}",
+          "type": "color",
+          "description": "Warning color for icon"
+        },
+        "brand": {
+          "value": "{jds.color.palette-brand.60}",
+          "type": "color",
+          "description": "Brand action color of icon"
+        },
+        "brand-hover": {
+          "value": "{jds.color.palette-brand.70}",
+          "type": "color",
+          "description": "Brand color for hover state of icon"
+        },
+        "brand-active": {
+          "value": "{jds.color.palette-brand.80}",
+          "type": "color",
+          "description": "Brand color for active state of icon"
+        },
+        "brand-accent-1": {
+          "value": "{jds.color.palette-brand-accent-1.60}",
+          "type": "color",
+          "description": "Brand accent 1 color for icon"
+        },
+        "brand-accent-2": {
+          "value": "{jds.color.palette-brand-accent-2.60}",
+          "type": "color",
+          "description": "Brand accent 2 color for icon"
+        },
+        "link-default": {
+          "value": "{jds.color.text.brand}",
+          "type": "color",
+          "description": "Link icon color"
+        },
+        "link-hover": {
+          "value": "{jds.color.text.brand-hover}",
+          "type": "color",
+          "description": "Link icon color hover"
+        },
+        "link-active": {
+          "value": "{jds.color.text.brand-active}",
+          "type": "color",
+          "description": "Link icon color active"
+        },
+        "link-visited": {
+          "value": "{jds.color.purple.60}",
+          "type": "color",
+          "description": "Link icon color visited"
+        },
+        "link-visited-hover": {
+          "value": "{jds.color.purple.70}",
+          "type": "color",
+          "description": "Link icon color visited hover"
+        },
+        "link-visited-active": {
+          "value": "{jds.color.purple.80}",
+          "type": "color",
+          "description": "Link icon color visited active"
+        },
+        "link-default-inverse": {
+          "value": "{jds.color.palette-brand.40}",
+          "type": "color",
+          "description": "Link icon color on dark background"
+        }
+      },
+      "interaction-overlay": {
+        "hover": {
+          "value": "#ffffff33",
+          "type": "color",
+          "description": "Overlay to indicate hover state when a background color cannot change, such as images"
+        },
+        "active": {
+          "value": "#ffffff66",
+          "type": "color",
+          "description": "Overlay to indicate active state when a background color cannot change, such as images"
+        }
+      },
+      "shadow": {
+        "type": "color",
+        "value": "rgba(40, 51, 63, 0.24)",
+        "description": "Used for color and opacity of shadows"
+      }
+    },
+    "utility": {
+      "color": {
+        "shadow": {
+          "focus": {
+            "regular": {
+              "value": "{jds.color.border.focus}66",
+              "type": "color",
+              "description": "A color token used only for backwards compatability for the color with opacity for focus shadow. Will be deprecated."
+            },
+            "inverse": {
+              "value": "{jds.color.white}66",
+              "type": "color",
+              "description": "A color token used only for backwards compatability for the color with opacity for focus shadow inverse. Will be deprecated."
+            },
+            "error": {
+              "value": "{jds.color.border.error}66",
+              "type": "color",
+              "description": "A color token used only for backwards compatability for the color with opacity for error focus shadow. Will be deprecated."
+            },
+            "error-inverse": {
+              "value": "#e69acf66",
+              "type": "color",
+              "description": "A color token used only for backwards compatability for the color with opacity for error focus shadow inverse. Will be deprecated."
+            }
+          }
+        }
+      }
+    },
+    "elevation": {
+      "surface": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Primary background for the UI"
+      },
+      "surface-hover": {
+        "value": "{jds.color.palette-neutral.10}",
+        "type": "color",
+        "description": "Primary background hover state for the UI"
+      },
+      "surface-active": {
+        "value": "{jds.color.palette-neutral.20}",
+        "type": "color",
+        "description": "Primary background active state for the UI"
+      },
+      "surface-recessed": {
+        "value": "{jds.color.palette-neutral.10}",
+        "type": "color",
+        "description": "Secondary background for the UI often used for grouping items"
+      },
+      "surface-raised": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Primary background for for cards that can be moved"
+      },
+      "surface-raised-hover": {
+        "value": "{jds.color.palette-neutral.10}",
+        "type": "color",
+        "description": "Primary background hover state for for cards that can be moved"
+      },
+      "surface-raised-active": {
+        "value": "{jds.color.palette-neutral.20}",
+        "type": "color",
+        "description": "Primary background active state for for cards that can be moved"
+      },
+      "surface-overlay": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Background for elements positioned above the UI such as modals, dropdown menus, dialogues, etc., as well as the background for cards that are in a dragged state."
+      },
+      "surface-overlay-hover": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Background hover state for elements positioned above the UI such as modals, dropdown menus, dialogues, etc., as well as the background for cards that are in a dragged state."
+      },
+      "surface-overlay-active": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Background active state for elements positioned above the UI such as modals, dropdown menus, dialogues, etc., as well as the background for cards that are in a dragged state."
+      },
+      "shadow": {
+        "low": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "1",
+            "spread": "0",
+            "color": "{jds.color.shadow}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Shadow for lowest elevation"
+        },
+        "raised": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "{jds.color.shadow}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Default shadow used for most components"
+        },
+        "overlay": {
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "{jds.color.shadow}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Shadow for highest level"
+        },
+        "overflow": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "6",
+            "spread": "2.5",
+            "color": "{jds.color.shadow}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Shadow used when content scrolls underneath a surface"
+        },
+        "inset": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "1",
+            "color": "{jds.color.shadow}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Inset shadow"
+        },
+        "none": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "{jds.color.transparent}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Shadow value for none"
+        }
+      }
+    },
+    "opacity-disabled": {
+      "value": ".4",
+      "type": "opacity",
+      "description": "Opacity for disabled state"
+    },
+    "size": {
+      "input-height": {
+        "value": "40",
+        "type": "sizing",
+        "description": "Height for inputs and related components including fields, selects, and buttons"
+      }
+    }
+  }
+}

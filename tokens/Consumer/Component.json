@@ -1,0 +1,4488 @@
+{
+  "jds": {
+    "accordion": {
+      "card-header-title-color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color",
+        "description": "Color for the title text of the accordion card header"
+      },
+      "card-header-title-color-text-hover": {
+        "value": "{jds.color.text.regular}",
+        "type": "color",
+        "description": "Color for the hover state of title text of the accordion card header"
+      },
+      "card-header-title-color-text-active": {
+        "value": "{jds.color.text.regular}",
+        "type": "color",
+        "description": "Color for the active state of title text of the accordion card header"
+      },
+      "card-header-color-action-icon": {
+        "value": "{jds.color.icon.regular}",
+        "type": "color",
+        "description": "Color for accordion card header action icon"
+      },
+      "card-header-color-action-icon-hover": {
+        "value": "{jds.color.icon.regular}",
+        "type": "color",
+        "description": "Color for the hover state of the accordion card header action icon"
+      },
+      "card-header-color-action-icon-active": {
+        "value": "{jds.color.icon.regular}",
+        "type": "color",
+        "description": "Color for the active state of the accordion card header action icon"
+      },
+      "card-header-color-background": {
+        "value": "{jds.elevation.surface}",
+        "type": "color",
+        "description": "Background color for accordion card header"
+      },
+      "card-header-color-background-hover": {
+        "value": "{jds.elevation.surface-hover}",
+        "type": "color",
+        "description": "Background color for hover state of accordion card header"
+      },
+      "card-header-color-background-active": {
+        "value": "{jds.elevation.surface-active}",
+        "type": "color",
+        "description": "Background color for active state of accordion card header"
+      },
+      "card-content-color-background": {
+        "value": "{jds.color.background.neutral-subtle}",
+        "type": "color",
+        "description": "Background color for accordion card content container"
+      },
+      "card-header-padding": {
+        "value": "5 {jds.space.4} 5",
+        "type": "spacing",
+        "description": "Padding for the accordion card header"
+      },
+      "card-header-gap": {
+        "value": "{jds.space.2}",
+        "type": "spacing",
+        "description": "Gap between elements in the accordion card header"
+      },
+      "card-content-padding": {
+        "value": "{jds.space.5} {jds.space.5} {jds.space.5} 36",
+        "type": "spacing",
+        "description": "Padding for the accordion card content container"
+      },
+      "item-divider-color-border": {
+        "value": "{jds.color.border.separator}",
+        "type": "color",
+        "description": "Border color for divider between accordion item cards"
+      },
+      "card-header": {
+        "height": {
+          "value": "{jds.input-field.height}",
+          "type": "sizing",
+          "description": "Height for accordion card header"
+        }
+      }
+    },
+    "checkbox": {
+      "selector": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for checkbox selector"
+          },
+          "background-hover": {
+            "value": "{jds.color.background.neutral-subtle-hover}",
+            "type": "color",
+            "description": "Background color for hover state of checkbox selector"
+          },
+          "background-active": {
+            "value": "{jds.color.background.neutral-subtle-active}",
+            "type": "color",
+            "description": "Background color for active state of checkbox selector"
+          },
+          "border": {
+            "value": "{jds.color.border.regular}",
+            "type": "color",
+            "description": "Border color for checkbox selector"
+          },
+          "border-hover": {
+            "value": "{jds.color.border.regular}",
+            "type": "color",
+            "description": "Border color for hover state of checkbox selector"
+          },
+          "border-active": {
+            "value": "{jds.color.border.regular}",
+            "type": "color",
+            "description": "Border color for active state of checkbox selector"
+          },
+          "border-error": {
+            "value": "{jds.color.border.error}",
+            "type": "color",
+            "description": "Border color for error state of checkbox selector"
+          },
+          "background-selected": {
+            "value": "{jds.color.background.selected}",
+            "type": "color",
+            "description": "Background color for selected state of checkbox selector"
+          },
+          "background-selected-hover": {
+            "value": "{jds.color.background.selected-hover}",
+            "type": "color",
+            "description": "Background color for selected state hover of checkbox selector"
+          },
+          "background-selected-active": {
+            "value": "{jds.color.background.selected-active}",
+            "type": "color",
+            "description": "Background color for selected state active of checkbox selector"
+          },
+          "background-selected-error": {
+            "value": "{jds.color.border.error}",
+            "type": "color",
+            "description": "Background color for selected state of checkbox selector"
+          },
+          "border-selected": {
+            "value": "{jds.color.border.selected}",
+            "type": "color",
+            "description": "Border color for selected state of checkbox selector"
+          },
+          "border-selected-hover": {
+            "value": "{jds.color.border.selected-hover}",
+            "type": "color",
+            "description": "Border color for selected state hover of checkbox selector"
+          },
+          "border-selected-active": {
+            "value": "{jds.color.border.selected-active}",
+            "type": "color",
+            "description": "Border color for selected state active of checkbox selector"
+          }
+        },
+        "icon": {
+          "color": {
+            "icon-selected": {
+              "value": "{jds.color.background.neutral-subtle}",
+              "type": "color",
+              "description": "Background color for selected state of checkbox selector icon"
+            },
+            "icon-selected-hover": {
+              "value": "{jds.color.background.neutral-subtle}",
+              "type": "color",
+              "description": "Background color for selected hover state of checkbox selector icon"
+            },
+            "icon-selected-active": {
+              "value": "{jds.color.background.neutral-subtle}",
+              "type": "color",
+              "description": "Background color for selected active state of checkbox selector icon"
+            }
+          },
+          "size": {
+            "value": "{jds.size.2} - 2",
+            "type": "dimension",
+            "description": "Size for checkbox selector icon"
+          }
+        },
+        "size": {
+          "value": "{jds.size.2}",
+          "type": "dimension",
+          "description": "Size for checkbox selector"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for checkbox selector"
+        },
+        "border-width": {
+          "value": "{jds.border-width.regular}",
+          "type": "borderWidth",
+          "description": "Border width for checkbox selector"
+        }
+      },
+      "group": {
+        "padding": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Padding for the checkbox group container"
+        },
+        "gap-vertical": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Gap between vertically-aligned checkbox group elements"
+        },
+        "gap-horizontal": {
+          "value": "{jds.space.5}",
+          "type": "spacing",
+          "description": "Gap between horizontally-aligned checkbox group elements"
+        }
+      }
+    },
+    "radio": {
+      "selector": {
+        "border-width": {
+          "value": "{jds.border-width.regular}",
+          "type": "borderWidth"
+        },
+        "color-background": {
+          "value": "{jds.elevation.surface}",
+          "type": "color",
+          "description": "Background color for radio selector"
+        },
+        "color-background-hover": {
+          "value": "{jds.elevation.surface-hover}",
+          "type": "color",
+          "description": "Background color for hover state of radio selector"
+        },
+        "color-background-active": {
+          "value": "{jds.elevation.surface-active}",
+          "type": "color",
+          "description": "Background color for active state of radio selector"
+        },
+        "color-border-error": {
+          "value": "{jds.color.border.error}",
+          "type": "color",
+          "description": "Border color for error state of radio selector"
+        },
+        "color-background-selected": {
+          "value": "{jds.color.background.selected}",
+          "type": "color",
+          "description": "Background color for selected state of radio selector"
+        },
+        "color-background-selected-hover": {
+          "value": "{jds.color.background.selected-hover}",
+          "type": "color",
+          "description": "Background color for selected state hover of radio selector"
+        },
+        "color-background-selected-active": {
+          "value": "{jds.color.background.selected-active}",
+          "type": "color",
+          "description": "Background color for selected state active of radio selector"
+        },
+        "inner": {
+          "color-background-selected": {
+            "value": "{jds.elevation.surface}",
+            "type": "color",
+            "description": "Background color for selected state of radio selector inner"
+          },
+          "color-background-selected-hover": {
+            "value": "{jds.elevation.surface-hover}",
+            "type": "color",
+            "description": "Background color for selected state hover of radio selector inner"
+          },
+          "color-background-selected-active": {
+            "value": "{jds.elevation.surface-active}",
+            "type": "color",
+            "description": "Background color for selected state active of radio selector inner"
+          },
+          "size-selected": {
+            "value": "{jds.size.1}",
+            "type": "dimension",
+            "description": "Size for inner element of radio selector"
+          }
+        },
+        "color-background-selected-error": {
+          "value": "{jds.color.background.error}",
+          "type": "color",
+          "description": "Background color for selected state of radio selector"
+        },
+        "color-border": {
+          "value": "{jds.color.border.regular}",
+          "type": "color",
+          "description": "Border color for radio selector"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.border.regular}",
+          "type": "color",
+          "description": "Border color for hover state of radio selector"
+        },
+        "color-border-active": {
+          "value": "{jds.color.border.regular}",
+          "type": "color",
+          "description": "Border color for active state of radio selector"
+        },
+        "color-border-selected": {
+          "value": "{jds.color.border.selected}",
+          "type": "color",
+          "description": "Border color for selected state of radio selector"
+        },
+        "color-border-selected-hover": {
+          "value": "{jds.color.border.selected-hover}",
+          "type": "color",
+          "description": "Border color for selected state hover of radio selector"
+        },
+        "color-border-selected-active": {
+          "value": "{jds.color.border.selected-active}",
+          "type": "color",
+          "description": "Border color for selected state active of radio selector"
+        },
+        "size": {
+          "value": "{jds.size.2}",
+          "type": "dimension",
+          "description": "Size for radio selector"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.round}",
+          "type": "borderRadius",
+          "description": "Border radius for radio selector"
+        }
+      },
+      "group": {
+        "padding": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Padding for the radio group container"
+        },
+        "gap-vertical": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Gap between vertically-aligned radio group elements"
+        },
+        "gap-horizontal": {
+          "value": "{jds.space.5}",
+          "type": "spacing",
+          "description": "Gap between horizontally-aligned radio group elements"
+        }
+      }
+    },
+    "avatar": {
+      "color-text-inverse": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color"
+      },
+      "color-background": {
+        "value": "{jds.color.background.brand}",
+        "type": "color"
+      },
+      "color-background-hover": {
+        "value": "{jds.color.background.brand-hover}",
+        "type": "color"
+      },
+      "color-background-active": {
+        "value": "{jds.color.background.brand-active}",
+        "type": "color"
+      },
+      "color-border": {
+        "value": "{jds.color.border.brand}",
+        "type": "color"
+      },
+      "size": {
+        "value": "32px",
+        "type": "sizing"
+      },
+      "header-color-border-focus": {
+        "value": "{jds.color.border.focus-inverse}",
+        "type": "color"
+      }
+    },
+    "badge": {
+      "notification": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.error}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.regular}",
+          "type": "borderWidth",
+          "description": "Border width for notification badge"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.low}",
+          "type": "boxShadow",
+          "description": "Shadow for notification badge"
+        }
+      },
+      "error": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.error}",
+            "type": "color",
+            "description": "Background color for error badge"
+          },
+          "border": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color",
+            "description": "Border color for error badge"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Text color for error badge"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for error badge"
+        }
+      },
+      "information": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.information}",
+            "type": "color",
+            "description": "Background color for information badge"
+          },
+          "border": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color",
+            "description": "Border color for information badge"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Text color for information badge"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for information badge"
+        }
+      },
+      "success": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.success}",
+            "type": "color",
+            "description": "Background color for success badge"
+          },
+          "border": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color",
+            "description": "Border color for success badge"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Text color for success badge"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for success badge"
+        }
+      },
+      "warning": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.warning}",
+            "type": "color",
+            "description": "Background color for warning badge"
+          },
+          "border": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color",
+            "description": "Border color for warning badge"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for warning badge"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for warning badge"
+        }
+      },
+      "inverse": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for inverse badge"
+          },
+          "border": {
+            "value": "{jds.color.border.regular}",
+            "type": "color",
+            "description": "Border color for inverse badge"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for inverse badge"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for inverse badge"
+        }
+      },
+      "neutral": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral}",
+            "type": "color",
+            "description": "Background color for neutral badge"
+          },
+          "border": {
+            "value": "{jds.color.border.regular}",
+            "type": "color",
+            "description": "Border color for neutral badge"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for neutral badge"
+          }
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for neutral badge"
+        }
+      },
+      "color": {
+        "background": {
+          "value": "{jds.color.background.brand}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{jds.color.border.inverse}",
+          "type": "color",
+          "description": "Border color for badge"
+        },
+        "text": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color"
+        }
+      },
+      "height": {
+        "value": "23",
+        "type": "sizing",
+        "description": "Test value"
+      },
+      "min-width": {
+        "value": "{jds.badge.height}",
+        "type": "sizing",
+        "description": "Test value"
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.round}",
+        "type": "borderRadius"
+      },
+      "border-width": {
+        "value": "{jds.border-width.none}",
+        "type": "borderWidth",
+        "description": "Border width for badge"
+      },
+      "padding": {
+        "value": "0 6",
+        "type": "spacing"
+      }
+    },
+    "breadcrumb": {
+      "divider-color-text": {
+        "value": "{jds.color.text.subtle}",
+        "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "color-text": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for primary button (formerly filled button)"
+        },
+        "color-text-hover": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Text color for hover state of primary button (formerly filled button)"
+        },
+        "color-text-active": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Text color for active state of primary button (formerly filled button)"
+        },
+        "color-icon": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color for icon of primary button (formerly filled button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color for icon hover state of primary button (formerly filled button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color for icon active state of primary button (formerly filled button)"
+        },
+        "color-background": {
+          "value": "{jds.color.background.brand-accent-1}",
+          "type": "color",
+          "description": "Background color for primary button (formerly filled button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.brand-accent-1-hover}",
+          "type": "color",
+          "description": "Background color for hover state of primary button (formerly filled button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.brand-accent-1-active}",
+          "type": "color",
+          "description": "Background color for active state of primary button (formerly filled button)"
+        },
+        "color-border": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for primary button (formerly filled button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for hover state of primary button (formerly filled button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for active state of primary button (formerly filled button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for primary button (formerly filled button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of primary button (formerly filled button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of primary button (formerly filled button)"
+        },
+        "height-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Height for small primary button"
+        },
+        "height-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Height for medium primary button"
+        },
+        "icon-size": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of primary button"
+        },
+        "label-font": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textDecoration": "{jds.text-decoration.none}",
+            "textCase": "{jds.text-case.none}"
+          },
+          "type": "typography",
+          "description": "Font for primary button label"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.round}",
+          "type": "borderRadius",
+          "description": "Border radius for primary button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.raised}",
+          "type": "boxShadow",
+          "description": "Shadow for primary button"
+        },
+        "padding": {
+          "value": "0 {jds.space.5}",
+          "type": "spacing",
+          "description": "Padding for primary button"
+        },
+        "gap": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Spacing for gap between elements within primary button"
+        }
+      },
+      "secondary": {
+        "color-text": {
+          "value": "{jds.color.text.brand}",
+          "type": "color",
+          "description": "Text color for secondary button (formerly outlined button)"
+        },
+        "color-text-hover": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Text color for hover state of secondary button (formerly outlined button)"
+        },
+        "color-text-active": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Text color for active state of secondary button (formerly outlined button)"
+        },
+        "color-icon": {
+          "value": "{jds.color.icon.brand}",
+          "type": "color",
+          "description": "Icon color for secondary button (formerly outlined button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Icon color for hover state of secondary button (formerly outlined button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Icon color for active state of secondary button (formerly outlined button)"
+        },
+        "color-background": {
+          "type": "color",
+          "value": "{jds.color.background.neutral-subtle}",
+          "description": "Background color for secondary button (formerly outlined button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.brand-hover}",
+          "type": "color",
+          "description": "Background color for hover state of secondary button (formerly outlined button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.brand-active}",
+          "type": "color",
+          "description": "Background color for active state of secondary button (formerly outlined button)"
+        },
+        "color-border": {
+          "value": "{jds.color.border.brand}",
+          "type": "color",
+          "description": "Border color for secondary button (formerly outlined button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.border.brand-hover}",
+          "type": "color",
+          "description": "Border color for hover state of secondary button (formerly outlined button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.border.brand-active}",
+          "type": "color",
+          "description": "Border color for active state of secondary button (formerly outlined button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.thick}",
+            "borderWidthRight": "{jds.border-width.thick}",
+            "borderWidthBottom": "{jds.border-width.thick}",
+            "borderWidthLeft": "{jds.border-width.thick}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for secondary button (formerly outlined button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.thick}",
+            "borderWidthRight": "{jds.border-width.thick}",
+            "borderWidthBottom": "{jds.border-width.thick}",
+            "borderWidthLeft": "{jds.border-width.thick}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of secondary button (formerly outlined button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.thick}",
+            "borderWidthRight": "{jds.border-width.thick}",
+            "borderWidthBottom": "{jds.border-width.thick}",
+            "borderWidthLeft": "{jds.border-width.thick}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of secondary button (formerly outlined button)"
+        },
+        "height-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Height for small secondary button"
+        },
+        "height-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Height for medium secondary button"
+        },
+        "icon-size": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of secondary button"
+        },
+        "label-font": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textDecoration": "{jds.text-decoration.none}",
+            "textCase": "{jds.text-case.none}"
+          },
+          "type": "typography",
+          "description": "Font for secondary button label"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for secondary button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.raised}",
+          "type": "boxShadow",
+          "description": "Shadow for secondary button"
+        },
+        "padding": {
+          "value": "0 {jds.space.5}",
+          "type": "spacing",
+          "description": "Padding for secondary button"
+        },
+        "gap": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Spacing for gap between elements within secondary button"
+        }
+      },
+      "tertiary": {
+        "color-text": {
+          "value": "{jds.color.text.brand}",
+          "type": "color",
+          "description": "Text color for tertiary button (formerly text button)"
+        },
+        "color-text-hover": {
+          "value": "{jds.color.text.brand-hover}",
+          "type": "color",
+          "description": "Text color for hover state of tertiary button (formerly text button)"
+        },
+        "color-text-active": {
+          "value": "{jds.color.text.brand-active}",
+          "type": "color",
+          "description": "Text color for active state of tertiary button (formerly text button)"
+        },
+        "color-icon": {
+          "value": "{jds.color.text.brand}",
+          "type": "color",
+          "description": "Color of icon for tertiary button (formerly text button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.text.brand-hover}",
+          "type": "color",
+          "description": "Color of icon for hover state of tertiary button (formerly text button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.brand-active}",
+          "type": "color",
+          "description": "Color of icon for active state of tertiary button (formerly text button)"
+        },
+        "color-background": {
+          "value": "{jds.color.transparent-virtual}",
+          "type": "color",
+          "description": "Background color for tertiary button (formerly text button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for hover state of tertiary button (formerly text button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.neutral-subtle-active}",
+          "type": "color",
+          "description": "Text color for active state of tertiary button (formerly text button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for tertiary button (formerly text button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of tertiary button (formerly text button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of tertiary button (formerly text button)"
+        },
+        "color-border": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for tertiary button (formerly text button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for hover state of tertiary button (formerly text button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for active state of tertiary button (formerly text button)"
+        },
+        "height-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Height for small tertiary button"
+        },
+        "height-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Height for medium tertiary button"
+        },
+        "icon-size": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of tertiary button"
+        },
+        "label-font": {
+          "value": {
+            "fontFamily": "{jds.font-family.body}",
+            "fontWeight": "{jds.font-weight.600-semibold}",
+            "lineHeight": "{jds.line-height.body}",
+            "fontSize": "{jds.font-size.3}",
+            "letterSpacing": "{jds.letter-spacing.normal}",
+            "paragraphSpacing": "{jds.paragraph-spacing.normal}",
+            "textDecoration": "{jds.text-decoration.none}",
+            "textCase": "{jds.text-case.none}"
+          },
+          "type": "typography",
+          "description": "Font for tertiary button label"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for tertiary button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.none}",
+          "type": "boxShadow",
+          "description": "Shadow for tertiary button"
+        },
+        "padding": {
+          "value": "0 {jds.space.5}",
+          "type": "spacing",
+          "description": "Padding for tertiary button"
+        },
+        "gap": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Spacing for gap between elements within tertiary button"
+        }
+      }
+    },
+    "toggle-button": {
+      "color": {
+        "background": {
+          "value": "{jds.elevation.surface}",
+          "type": "color",
+          "description": "Background color for toggle button"
+        },
+        "background-hover": {
+          "value": "{jds.elevation.surface-hover}",
+          "type": "color",
+          "description": "Background color for hover state of toggle button"
+        },
+        "background-active": {
+          "value": "{jds.elevation.surface-active}",
+          "type": "color",
+          "description": "Background color for active state of toggle button"
+        },
+        "background-selected": {
+          "value": "{jds.color.background.selected}",
+          "type": "color",
+          "description": "Background color for selected state of toggle button"
+        },
+        "background-selected-hover": {
+          "value": "{jds.color.background.selected-hover}",
+          "type": "color",
+          "description": "Background color for selected hover state of toggle button"
+        },
+        "background-selected-active": {
+          "value": "{jds.color.background.selected-active}",
+          "type": "color",
+          "description": "Background color for selected active state of toggle button"
+        },
+        "border": {
+          "value": "{jds.color.border.regular}",
+          "type": "color",
+          "description": "Border color for toggle button"
+        },
+        "text": {
+          "value": "{jds.color.text.subtle}",
+          "type": "color",
+          "description": "Text color for toggle button"
+        },
+        "text-hover": {
+          "value": "{jds.color.text.subtle}",
+          "type": "color",
+          "description": "Text color for hover state of toggle button"
+        },
+        "text-active": {
+          "value": "{jds.color.text.subtle}",
+          "type": "color",
+          "description": "Text color for active state of toggle button"
+        },
+        "text-selected": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Selected text color for toggle button"
+        },
+        "text-selected-hover": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Text color for selected hover state of toggle button"
+        },
+        "text-selected-active": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Text color for selected active state of toggle button"
+        }
+      },
+      "left": {
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.regular}",
+            "borderWidthRight": "{jds.border-width.regular}",
+            "borderWidthBottom": "{jds.border-width.regular}",
+            "borderWidthLeft": "{jds.border-width.regular}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for left toggle button"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular} 0 0 {jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for the left button in a toggle button"
+        }
+      },
+      "center": {
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.regular}",
+            "borderWidthRight": "{jds.border-width.regular}",
+            "borderWidthBottom": "{jds.border-width.regular}",
+            "borderWidthLeft": "{jds.border-width.regular}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for center toggle button"
+        },
+        "border-radius": {
+          "value": "0",
+          "type": "borderRadius",
+          "description": "Border radius for the center button(s) in a toggle button"
+        }
+      },
+      "right": {
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.regular}",
+            "borderWidthRight": "{jds.border-width.regular}",
+            "borderWidthBottom": "{jds.border-width.regular}",
+            "borderWidthLeft": "{jds.border-width.regular}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for right toggle button"
+        },
+        "border-radius": {
+          "value": "0 {jds.border-radius.regular} {jds.border-radius.regular} 0",
+          "type": "borderRadius",
+          "description": "Border radius for the right button in a toggle button"
+        }
+      },
+      "height-medium": {
+        "value": "{jds.size.input-height}",
+        "type": "sizing",
+        "description": "Height for medium toggle button"
+      },
+      "padding": {
+        "value": "0 {jds.space.5}",
+        "type": "spacing",
+        "description": "Padding for toggle button"
+      },
+      "group": {
+        "gap": {
+          "value": "-1",
+          "type": "spacing",
+          "description": "Gap between buttons in toggle button group"
+        }
+      }
+    },
+    "validation": {
+      "icon-size": {
+        "value": "{jds.size.2}",
+        "type": "sizing",
+        "description": "Size for icon in a validation message"
+      },
+      "gap": {
+        "inner": {
+          "value": "{jds.space.2}",
+          "type": "spacing",
+          "description": "Gap between elements in a validation message"
+        },
+        "bottom": {
+          "value": "{jds.space.2}",
+          "type": "spacing",
+          "description": "Gap between bottom-positioned validation and the affected component"
+        }
+      }
+    },
+    "date-picker": {
+      "calendar": {
+        "card": {
+          "color-background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color of date picker calendar"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius for date picker calendar card"
+          },
+          "shadow": {
+            "value": "{jds.elevation.shadow.raised}",
+            "type": "boxShadow",
+            "description": "Shadow for date picker calendar"
+          }
+        },
+        "content": {
+          "gap": {
+            "value": "{jds.space.2}",
+            "type": "spacing",
+            "description": "Gap for date picker calendar"
+          },
+          "padding": {
+            "value": "{jds.space.3}",
+            "type": "spacing",
+            "description": "Padding for date picker calendar"
+          }
+        },
+        "day-month-year": {
+          "color-background": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color for date picker calendar elements"
+          },
+          "color-background-hover": {
+            "value": "{jds.color.background.neutral-subtle-hover}",
+            "type": "color",
+            "description": "Background color of hover state for date picker calendar elements"
+          },
+          "color-background-active": {
+            "value": "{jds.color.background.neutral-subtle-active}",
+            "type": "color",
+            "description": "Background color of actove state for date picker calendar elements"
+          },
+          "color-background-selected": {
+            "value": "{jds.color.background.selected}",
+            "type": "color",
+            "description": "Background color of selected state for date picker calendar elements"
+          },
+          "color-background-selected-hover": {
+            "value": "{jds.color.background.selected-hover}",
+            "type": "color",
+            "description": "Background color of selected hover state for date picker calendar elements"
+          },
+          "color-background-selected-active": {
+            "value": "{jds.color.background.selected-active}",
+            "type": "color",
+            "description": "Background color of selected active state for date picker calendar elements"
+          },
+          "color-text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Background color of date picker calendar text"
+          },
+          "color-text-selected": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Color for date picker calendar selected text"
+          },
+          "range": {
+            "color-background-selected": {
+              "value": "{jds.color.background.selected-subtle}",
+              "type": "color",
+              "description": "Background color of selected state for date picker days range"
+            },
+            "color-background-selected-hover": {
+              "value": "{jds.color.background.selected-subtle-hover}",
+              "type": "color",
+              "description": "Background color of selected hover state for date picker days range"
+            },
+            "color-background-selected-active": {
+              "value": "{jds.color.background.selected-subtle-active}",
+              "type": "color",
+              "description": "Background color of selected active state for date picker days range"
+            }
+          },
+          "previous-next-month": {
+            "color-text": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Color of date picker calendar previous or next month text"
+            }
+          }
+        },
+        "today": {
+          "color-border": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Border color of date picker calendar today"
+          },
+          "color-background": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of date picker calendar today"
+          },
+          "color-border-selected": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Border color of date picker calendar today selected"
+          },
+          "color-background-selected": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of date picker calendar today selected"
+          },
+          "previous-next-month": {
+            "color-border": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Border color of previous or next month for date picker calendar today"
+            }
+          },
+          "border-width": {
+            "value": {
+              "borderWidthTop": "{jds.border-width.none}",
+              "borderWidthRight": "{jds.border-width.none}",
+              "borderWidthBottom": "{jds.border-width.thick}",
+              "borderWidthLeft": "{jds.border-width.none}"
+            },
+            "type": "composition",
+            "description": "Composition token with individual border width values for date picker calendar today border"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.none}",
+            "type": "borderRadius",
+            "description": "Border radius for date picker today"
+          }
+        },
+        "day-content": {
+          "gap": {
+            "value": "2",
+            "type": "spacing",
+            "description": "Gap between date picker calendar days content elements"
+          },
+          "padding": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Padding for date picker calendar days content"
+          }
+        },
+        "day-row": {
+          "gap": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Gap for date picker calendar row"
+          }
+        },
+        "month-year-row": {
+          "gap": {
+            "value": "AUTO",
+            "type": "spacing",
+            "description": "Gap for date picker calendar row"
+          }
+        },
+        "month-year-content": {
+          "gap": {
+            "value": "16",
+            "type": "spacing",
+            "description": "Gap for month-year selection for the date picker"
+          },
+          "padding": {
+            "value": "0 12",
+            "type": "spacing",
+            "description": "Padding for date picker calendar month and year selection"
+          }
+        },
+        "month-year": {
+          "border-radius": {
+            "value": "{jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius for date picker month element"
+          }
+        },
+        "day": {
+          "border-radius": {
+            "value": "{jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius for date picker day"
+          },
+          "range-start-border-radius": {
+            "value": "{jds.border-radius.regular} 0 0 {jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius for date picker day range start"
+          },
+          "range-border-radius": {
+            "value": "0",
+            "type": "borderRadius",
+            "description": "Border radius for date picker day range"
+          },
+          "range-end-border-radius": {
+            "value": "0 {jds.border-radius.regular} {jds.border-radius.regular} 0",
+            "type": "borderRadius",
+            "description": "Border radius for date picker day range end"
+          }
+        }
+      },
+      "card": {
+        "min-width": {
+          "value": "240",
+          "type": "sizing",
+          "description": "Min-width for the date picker card for consistent width with varying content"
+        }
+      },
+      "elements": {
+        "height": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Height for date picker elements"
+        }
+      },
+      "date-input-field": {
+        "month-day": {
+          "width": {
+            "value": "48",
+            "type": "sizing",
+            "description": "Width for date picker date two-digit month and day input"
+          }
+        },
+        "year": {
+          "width": {
+            "value": "64",
+            "type": "sizing",
+            "description": "Width for date picker date four-digit year input"
+          }
+        }
+      },
+      "today": {
+        "width": {
+          "value": "16",
+          "type": "sizing",
+          "description": "Width for date picker today container"
+        },
+        "height": {
+          "value": "21",
+          "type": "sizing",
+          "description": "Height for date picker today container"
+        }
+      },
+      "day": {
+        "width": {
+          "value": "{jds.date-picker.elements.height}",
+          "type": "sizing",
+          "description": "Width for date picker day"
+        }
+      }
+    },
+    "input-field": {
+      "border-width": {
+        "value": {
+          "borderWidthTop": "{jds.border-width.regular}",
+          "borderWidthRight": "{jds.border-width.regular}",
+          "borderWidthBottom": "{jds.border-width.regular}",
+          "borderWidthLeft": "{jds.border-width.regular}"
+        },
+        "type": "composition",
+        "description": "Composition token with individual border width values for input field"
+      },
+      "border-width-hover": {
+        "value": {
+          "borderWidthTop": "{jds.border-width.regular}",
+          "borderWidthRight": "{jds.border-width.regular}",
+          "borderWidthBottom": "{jds.border-width.regular}",
+          "borderWidthLeft": "{jds.border-width.regular}"
+        },
+        "type": "composition",
+        "description": "Composition token with individual border width values for hover state of input field"
+      },
+      "border-width-active": {
+        "value": {
+          "borderWidthTop": "{jds.border-width.regular}",
+          "borderWidthRight": "{jds.border-width.regular}",
+          "borderWidthBottom": "{jds.border-width.regular}",
+          "borderWidthLeft": "{jds.border-width.regular}"
+        },
+        "type": "composition",
+        "description": "Composition token with individual border width values for active state of input field"
+      },
+      "border-width-focus": {
+        "value": {
+          "borderWidthTop": "{jds.border-width.regular}",
+          "borderWidthRight": "{jds.border-width.regular}",
+          "borderWidthBottom": "{jds.border-width.regular}",
+          "borderWidthLeft": "{jds.border-width.regular}"
+        },
+        "type": "composition",
+        "description": "Composition token with individual border width values for focus state of input field"
+      },
+      "read-only": {
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.regular}",
+            "borderWidthRight": "{jds.border-width.regular}",
+            "borderWidthBottom": "{jds.border-width.regular}",
+            "borderWidthLeft": "{jds.border-width.regular}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for read-only state of input field"
+        }
+      },
+      "text": {
+        "color-text": {
+          "value": "{jds.color.text.regular}",
+          "type": "color"
+        },
+        "color-text-read-only": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Color for read-only state of input text"
+        }
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.regular}",
+        "type": "borderRadius",
+        "description": "Border radius for input field"
+      },
+      "color-background": {
+        "value": "{jds.color.background.input}",
+        "type": "color",
+        "description": "Background color for input field"
+      },
+      "color-background-hover": {
+        "value": "{jds.color.background.input-hover}",
+        "type": "color",
+        "description": "Background color for hover state of input field"
+      },
+      "color-background-active": {
+        "value": "{jds.color.background.input-active}",
+        "type": "color",
+        "description": "Background color for active state of input field"
+      },
+      "color-background-read-only": {
+        "value": "{jds.color.background.input-read-only}",
+        "type": "color",
+        "description": "Background color for read-only state of input field"
+      },
+      "color-border": {
+        "value": "{jds.color.border.input}",
+        "type": "color",
+        "description": "Color of border for input field"
+      },
+      "color-border-read-only": {
+        "value": "{jds.color.border.input}",
+        "type": "color",
+        "description": "Color of border for read-only state of input field"
+      },
+      "placeholder": {
+        "color-text": {
+          "value": "{jds.color.text.subtle}",
+          "type": "color"
+        }
+      },
+      "currency": {
+        "color-text": {
+          "value": "{jds.color.text.subtle}",
+          "type": "color",
+          "description": "Color for currency text in a currency input field"
+        }
+      },
+      "height": {
+        "value": "{jds.size.input-height}",
+        "type": "sizing",
+        "description": "Height for input field components"
+      },
+      "gap": {
+        "value": "{jds.space.3}",
+        "type": "spacing",
+        "description": "Gap for input field"
+      },
+      "padding": {
+        "value": "0 12",
+        "type": "spacing",
+        "description": "Padding for input field"
+      },
+      "multiselect-gap": {
+        "value": "{jds.space.3}",
+        "type": "spacing",
+        "description": "Gap for the multiselect container in the input field"
+      },
+      "compound-field": {
+        "gap": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Gap between multiple fields in a compound input"
+        }
+      }
+    },
+    "dropdown": {
+      "list-item": {
+        "padding": {
+          "value": "0 12",
+          "type": "spacing",
+          "description": "Padding for dropdown list item"
+        },
+        "gap": {
+          "value": "{jds.space.2}",
+          "type": "spacing",
+          "description": "Gap for dropdown list item"
+        },
+        "height": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Height for dropdown option component"
+        },
+        "placeholder": {
+          "color-text": {
+            "value": "{jds.color.text.subtle}",
+            "type": "color"
+          }
+        },
+        "color-text": {
+          "value": "{jds.color.text.regular}",
+          "type": "color"
+        },
+        "color-background": {
+          "value": "{jds.elevation.surface}",
+          "type": "color"
+        },
+        "color-background-hover": {
+          "value": "{jds.elevation.surface-hover}",
+          "type": "color"
+        },
+        "color-background-active": {
+          "value": "{jds.elevation.surface-active}",
+          "type": "color"
+        },
+        "color-text-selected": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color"
+        },
+        "color-background-selected": {
+          "value": "{jds.color.background.selected}",
+          "type": "color"
+        },
+        "color-background-selected-hover": {
+          "value": "{jds.color.background.selected-hover}",
+          "type": "color"
+        },
+        "color-background-selected-active": {
+          "value": "{jds.color.background.selected-active}",
+          "type": "color"
+        }
+      },
+      "card": {
+        "color": {
+          "background": {
+            "value": "{jds.elevation.surface}",
+            "type": "color",
+            "description": "Background color for dropdown card container"
+          }
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for dropdown card container"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.raised}",
+          "type": "boxShadow",
+          "description": "Shadow for dropdown card container"
+        }
+      },
+      "gap": {
+        "value": "{jds.space.1}",
+        "type": "spacing",
+        "description": "Gap between dropdown card container and its trigger element"
+      },
+      "max-height": {
+        "value": "300",
+        "type": "sizing",
+        "description": "Maximum height for a dropdown container"
+      }
+    },
+    "label": {
+      "color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color",
+        "description": "Text color for labels"
+      },
+      "color-text-secondary": {
+        "value": "{jds.color.text.subtle}",
+        "type": "color",
+        "description": "Text color for secondary form labels"
+      },
+      "help": {
+        "color-icon": {
+          "value": "{jds.color.icon.brand}",
+          "type": "color",
+          "description": "Color for the help icon used with labels"
+        },
+        "icon": {
+          "size": {
+            "value": "{jds.icon.size-medium}",
+            "type": "sizing",
+            "description": "Size of help icon in label"
+          }
+        }
+      },
+      "required": {
+        "color-text": {
+          "value": "{jds.color.text.required}",
+          "type": "color",
+          "description": "Required indicator, most typically an asterisk."
+        }
+      },
+      "gap": {
+        "inner": {
+          "value": "{jds.space.1}",
+          "type": "spacing",
+          "description": "Gap between elements in the main line of the label base component"
+        },
+        "top": {
+          "value": "{jds.space.2}",
+          "type": "spacing",
+          "description": "Gap between an top-positioned base label and the component it describes"
+        },
+        "side": {
+          "value": "{jds.space.2}",
+          "type": "spacing",
+          "description": "Gap between an side-positioned base label and the selector it describes"
+        },
+        "side-large": {
+          "value": "{jds.space.7}",
+          "type": "spacing",
+          "description": "Gap between the base inline label and the component it describes"
+        }
+      }
+    },
+    "text-area-field": {
+      "padding": {
+        "value": "6 12",
+        "type": "spacing",
+        "description": "Padding for text area input field"
+      }
+    },
+    "phone-field": {
+      "country-icon": {
+        "border": {
+          "value": {
+            "style": "solid",
+            "width": "{jds.border-width.regular}",
+            "color": "{jds.color.white}"
+          },
+          "type": "border",
+          "description": "Border for country icon in the phone field component"
+        },
+        "shadow": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "2",
+            "spread": "1",
+            "color": "{jds.color.shadow}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Drop shadow for the phone field country icon"
+        },
+        "border-radius": {
+          "value": "2",
+          "type": "borderRadius",
+          "description": "Border radius for the country icon in the phone field component"
+        }
+      }
+    },
+    "icon-button": {
+      "primary": {
+        "size-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Size for small primary icon button"
+        },
+        "size-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Size for medium primary icon button"
+        },
+        "icon-size-small": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of small primary icon button"
+        },
+        "icon-size-medium": {
+          "value": "{jds.space.6}",
+          "type": "sizing",
+          "description": "Size for icon of medium primary icon button"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for primary icon button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.raised}",
+          "type": "boxShadow",
+          "description": "Shadow for primary icon button"
+        },
+        "color-icon": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color for icon of primary icon button (formerly filled icon button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color for icon hover state of primary icon button (formerly filled icon button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color for icon active state of primary icon button (formerly filled icon button)"
+        },
+        "color-background": {
+          "value": "{jds.color.background.brand}",
+          "type": "color",
+          "description": "Background color for primary icon button (formerly filled icon button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.brand-hover}",
+          "type": "color",
+          "description": "Background color for hover state of primary icon button (formerly filled icon button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.brand-active}",
+          "type": "color",
+          "description": "Background color for active state of primary icon button (formerly filled icon button)"
+        },
+        "color-border": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for primary icon button (formerly filled icon button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for hover state of primary icon button (formerly filled icon button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for active state of primary icon button (formerly filled icon button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for primary icon button(formerly filled button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of primary icon button (formerly filled button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of primary icon button (formerly filled button)"
+        }
+      },
+      "secondary": {
+        "size-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Size for small secondary icon button"
+        },
+        "size-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Size for medium secondary icon button"
+        },
+        "icon-size-small": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of small secondary icon button"
+        },
+        "icon-size-medium": {
+          "value": "{jds.space.6}",
+          "type": "sizing",
+          "description": "Size for icon of medium secondary icon button"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for secondary icon button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.raised}",
+          "type": "boxShadow",
+          "description": "Shadow for secondary icon button"
+        },
+        "color-icon": {
+          "value": "{jds.color.icon.brand}",
+          "type": "color",
+          "description": "Icon color for secondary icon button (formerly outlined icon button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Icon color for hover state of secondary icon button (formerly outlined icon button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Icon color for active state of secondary icon button (formerly outlined icon button)"
+        },
+        "color-background": {
+          "type": "color",
+          "value": "{jds.color.background.neutral-subtle}",
+          "description": "Background color for secondary icon button (formerly outlined icon button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.brand-hover}",
+          "type": "color",
+          "description": "Background color for hover state of secondary icon button (formerly outlined icon button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.brand-active}",
+          "type": "color",
+          "description": "Background color for active state of secondary icon button (formerly outlined icon button)"
+        },
+        "color-border": {
+          "value": "{jds.color.border.brand}",
+          "type": "color",
+          "description": "Border color for secondary icon button (formerly outlined icon button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.border.brand-hover}",
+          "type": "color",
+          "description": "Border color for hover state of secondary icon button (formerly outlined icon button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.border.brand-active}",
+          "type": "color",
+          "description": "Border color for active state of secondary icon button (formerly outlined icon button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.thick}",
+            "borderWidthRight": "{jds.border-width.thick}",
+            "borderWidthBottom": "{jds.border-width.thick}",
+            "borderWidthLeft": "{jds.border-width.thick}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for secondary icon button (formerly outlined button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.thick}",
+            "borderWidthRight": "{jds.border-width.thick}",
+            "borderWidthBottom": "{jds.border-width.thick}",
+            "borderWidthLeft": "{jds.border-width.thick}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of secondary icon button (formerly outlined button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.thick}",
+            "borderWidthRight": "{jds.border-width.thick}",
+            "borderWidthBottom": "{jds.border-width.thick}",
+            "borderWidthLeft": "{jds.border-width.thick}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of secondary icon button (formerly outlined button)"
+        }
+      },
+      "tertiary": {
+        "size-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Size for small tertiary icon button"
+        },
+        "size-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Size for medium tertiary icon button"
+        },
+        "icon-size-small": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of small tertiary icon button"
+        },
+        "icon-size-medium": {
+          "value": "{jds.space.6}",
+          "type": "sizing",
+          "description": "Size for icon of medium tertiary icon button"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for tertiary icon button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.none}",
+          "type": "boxShadow",
+          "description": "Shadow for tertiary icon button"
+        },
+        "color-icon": {
+          "value": "{jds.color.text.brand}",
+          "type": "color",
+          "description": "Color of icon for tertiary icon button (formerly text icon button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.text.brand-hover}",
+          "type": "color",
+          "description": "Color of icon for hover state of tertiary icon button (formerly text icon button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.brand-active}",
+          "type": "color",
+          "description": "Color of icon for active state of tertiary icon button (formerly text icon button)"
+        },
+        "color-background": {
+          "value": "{jds.color.transparent-virtual}",
+          "type": "color",
+          "description": "Background color for tertiary icon button (formerly text icon button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for hover state of tertiary icon button (formerly text icon button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.neutral-subtle-active}",
+          "type": "color",
+          "description": "Text color for active state of tertiary icon button (formerly text icon button)"
+        },
+        "color-border": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for tertiary icon button (formerly text icon button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for hover state of tertiary icon button (formerly text icon button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for active state of tertiary icon button (formerly text icon button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for tertiary icon button (formerly text button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of tertiary icon button (formerly text button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of tertiary icon button (formerly text button)"
+        }
+      },
+      "neutral": {
+        "size-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Size for small neutral icon button"
+        },
+        "size-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Size for medium neutral icon button"
+        },
+        "icon-size-small": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of small neutral icon button"
+        },
+        "icon-size-medium": {
+          "value": "{jds.space.6}",
+          "type": "sizing",
+          "description": "Size for icon of medium neutral icon button"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for neutral icon button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.none}",
+          "type": "boxShadow",
+          "description": "Shadow for neutral icon button"
+        },
+        "color-icon": {
+          "value": "{jds.color.icon.regular}",
+          "type": "color",
+          "description": "Color of icon for neutral icon button (formerly black icon button)"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.icon.regular}",
+          "type": "color",
+          "description": "Color of icon for hover state of neutral icon button (formerly black icon button)"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.regular}",
+          "type": "color",
+          "description": "Color of icon for active state of neutral icon button (formerly black icon button)"
+        },
+        "color-background": {
+          "value": "{jds.color.transparent-virtual}",
+          "type": "color",
+          "description": "Background color for neutral icon button (formerly black icon button)"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for hover state of neutral icon button (formerly black icon button)"
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.neutral-subtle-active}",
+          "type": "color",
+          "description": "Text color for active state of neutral icon button (formerly black icon button)"
+        },
+        "color-border": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for neutral icon button (formerly black icon button)"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for hover state of neutral icon button (formerly black icon button)"
+        },
+        "color-border-active": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for active state of neutral icon button (formerly black icon button)"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for neutral icon button (formerly text button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of neutral icon button (formerly text button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of neutral icon button (formerly text button)"
+        }
+      },
+      "inverse": {
+        "size-small": {
+          "value": "{jds.size.input-height} - {jds.space.2}",
+          "type": "sizing",
+          "description": "Size for small inverse icon button"
+        },
+        "size-medium": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Size for medium inverse icon button"
+        },
+        "icon-size-small": {
+          "value": "{jds.space.5}",
+          "type": "sizing",
+          "description": "Size for icon of small inverse icon button"
+        },
+        "icon-size-medium": {
+          "value": "{jds.space.6}",
+          "type": "sizing",
+          "description": "Size for icon of medium inverse icon button"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius for inverse icon button"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.none}",
+          "type": "boxShadow",
+          "description": "Shadow for inverse icon button"
+        },
+        "color-icon": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color of icon for inverse icon button"
+        },
+        "color-icon-hover": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color of icon for hover state of inverse icon button"
+        },
+        "color-icon-active": {
+          "value": "{jds.color.icon.inverse}",
+          "type": "color",
+          "description": "Color of icon for active state of inverse icon button"
+        },
+        "color-background": {
+          "value": "{jds.color.transparent-virtual}",
+          "type": "color",
+          "description": "Background color for inverse icon button"
+        },
+        "color-background-hover": {
+          "value": "{jds.color.interaction-overlay.hover}",
+          "type": "color",
+          "description": "Background color for hover state of inverse icon button"
+        },
+        "color-background-active": {
+          "value": "{jds.color.interaction-overlay.active}",
+          "type": "color",
+          "description": "Text color for active state of inverse icon button"
+        },
+        "color-border": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for inverse icon button"
+        },
+        "color-border-hover": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for hover state of inverse icon button"
+        },
+        "color-border-active": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Border color for active state of inverse icon button"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for inverse icon button (formerly text button)"
+        },
+        "border-width-hover": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for hover state of inverse icon button (formerly text button)"
+        },
+        "border-width-active": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.none}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Composition token with individual border width values for active state of inverse icon button (formerly text button)"
+        }
+      }
+    },
+    "card": {
+      "color-background": {
+        "value": "{jds.elevation.surface}",
+        "type": "color"
+      },
+      "color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      }
+    },
+    "footer": {
+      "color-background": {
+        "value": "{jds.color.background.brand-accent-2}",
+        "type": "color"
+      },
+      "color-text": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color"
+      }
+    },
+    "header": {
+      "height": {
+        "value": "56px",
+        "type": "sizing",
+        "description": "Height for header"
+      },
+      "logo-height": {
+        "value": "40",
+        "type": "sizing",
+        "description": "Equivalent to 2.5rem at 16px root. Need to add rem conversion."
+      },
+      "avatar-size": {
+        "value": "28px",
+        "type": "sizing",
+        "description": "Avatar size when in header"
+      },
+      "consumer": {
+        "height-phone": {
+          "value": "48",
+          "type": "sizing",
+          "description": "Height for consumer header phone."
+        },
+        "color-border-bottom": {
+          "value": "{jds.color.border.brand}",
+          "type": "color"
+        }
+      },
+      "color-background": {
+        "value": "{jds.color.background.brand-accent-2}",
+        "type": "color",
+        "description": "Default header background uses the alternate brand color."
+      },
+      "color-text": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color",
+        "description": "Default text color for header."
+      },
+      "search-color-background": {
+        "value": "{jds.color.interaction-overlay.hover}",
+        "type": "color"
+      },
+      "search-color-text": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color",
+        "description": "Color for text in header search"
+      },
+      "logo-color-background": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Color for logo in header"
+      },
+      "title-color-text": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color",
+        "description": "Color for title in header"
+      },
+      "icon-color-background": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Background color for icon buttons in header"
+      },
+      "icon-color-icon": {
+        "value": "{jds.color.icon.regular}",
+        "type": "color",
+        "description": "Icon color for icon buttons in header"
+      },
+      "icon-color-icon-inverse": {
+        "value": "{jds.color.white}",
+        "type": "color",
+        "description": "Icon color for icon buttons in header"
+      },
+      "label-color-text": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color",
+        "description": "Color for labels in header"
+      },
+      "subheader-height": {
+        "value": "40",
+        "type": "sizing",
+        "description": "Equivalent of 2.5rem with root of 16px."
+      },
+      "border-bottom": {
+        "value": "0",
+        "type": "borderWidth"
+      }
+    },
+    "icon": {
+      "size-small": {
+        "value": "14px",
+        "type": "sizing",
+        "description": "Size of small icon"
+      },
+      "size-medium": {
+        "value": "16px",
+        "type": "sizing",
+        "description": "Size of medium icon"
+      },
+      "size-large": {
+        "value": "20px",
+        "type": "sizing",
+        "description": "Size of large icon"
+      }
+    },
+    "info-label": {
+      "error": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.error}",
+            "type": "color",
+            "description": "Background color for error info label"
+          },
+          "border": {
+            "value": "{jds.color.border.error}",
+            "type": "color",
+            "description": "Border color for error info label"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Text color for error info label"
+          },
+          "icon": {
+            "value": "{jds.color.icon.inverse}",
+            "type": "color",
+            "description": "Icon color for error info label"
+          }
+        }
+      },
+      "information": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.information}",
+            "type": "color",
+            "description": "Background color for information info label"
+          },
+          "border": {
+            "value": "{jds.color.border.information}",
+            "type": "color",
+            "description": "Border color for information info label"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Text color for information info label"
+          },
+          "icon": {
+            "value": "{jds.color.icon.inverse}",
+            "type": "color",
+            "description": "Icon color for information info label"
+          }
+        }
+      },
+      "success": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.success}",
+            "type": "color",
+            "description": "Background color for success info label"
+          },
+          "border": {
+            "value": "{jds.color.border.success}",
+            "type": "color",
+            "description": "Border color for success info label"
+          },
+          "text": {
+            "value": "{jds.color.text.inverse}",
+            "type": "color",
+            "description": "Text color for success info label"
+          },
+          "icon": {
+            "value": "{jds.color.icon.inverse}",
+            "type": "color",
+            "description": "Icon color for success info label"
+          }
+        }
+      },
+      "warning": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.warning}",
+            "type": "color",
+            "description": "Background color for warning info label"
+          },
+          "border": {
+            "value": "{jds.color.border.warning}",
+            "type": "color",
+            "description": "Border color for warning info label"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for warning info label"
+          },
+          "icon": {
+            "value": "{jds.color.icon.regular}",
+            "type": "color",
+            "description": "Icon color for warning info label"
+          }
+        }
+      },
+      "neutral": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral}",
+            "type": "color",
+            "description": "Background color for neutral info label"
+          },
+          "border": {
+            "value": "{jds.color.palette-neutral.10}",
+            "type": "color",
+            "description": "Border color for neutral info label"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for neutral info label"
+          },
+          "icon": {
+            "value": "{jds.color.icon.regular}",
+            "type": "color",
+            "description": "Icon color for neutral info label"
+          }
+        }
+      },
+      "height": {
+        "value": "23",
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.round}",
+        "type": "borderRadius",
+        "description": "Border radius for info label"
+      },
+      "padding": {
+        "value": "0 {jds.space.3}",
+        "type": "spacing",
+        "description": "Padding for info label"
+      },
+      "border-width": {
+        "value": "{jds.border-width.regular}",
+        "type": "borderWidth",
+        "description": "Border width for info label"
+      }
+    },
+    "layout": {
+      "page-content-area-max-width": {
+        "value": "720px",
+        "type": "sizing",
+        "description": "Maximum of the page content area."
+      }
+    },
+    "progress-bar": {
+      "status": {
+        "color": {
+          "text": {
+            "value": "{jds.color.text.subtle}",
+            "type": "color",
+            "description": "Text color for progress bar status"
+          },
+          "background": {
+            "value": "{jds.color.background.brand}",
+            "type": "color",
+            "description": "Background color for progress bar status indicator"
+          }
+        },
+        "thickness": {
+          "value": "4",
+          "type": "sizing",
+          "description": "Thickness of the progress bar status indicator"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular} 0 0 {jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius of progress bar status indicator"
+        }
+      },
+      "track": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral}",
+            "type": "color",
+            "description": "Background color for progress bar track"
+          }
+        },
+        "thickness": {
+          "value": "4",
+          "type": "sizing",
+          "description": "Thickness of the progress bar track"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius of progress bar track"
+        }
+      },
+      "label": {
+        "color": {
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for progress bar label"
+          }
+        }
+      },
+      "color-background-hover": {
+        "value": "{jds.color.background.brand}",
+        "type": "color"
+      },
+      "color-background-complete-hover": {
+        "value": "{jds.color.background.brand-hover}",
+        "type": "color"
+      }
+    },
+    "progress-step": {
+      "node": {
+        "completed": {
+          "color": {
+            "background": {
+              "value": "{jds.color.background.brand}",
+              "type": "color",
+              "description": "Background color of completed state of progress step node"
+            },
+            "background-hover": {
+              "value": "{jds.color.background.brand-hover}",
+              "type": "color",
+              "description": "Background color of completed hover state of progress step node"
+            },
+            "background-active": {
+              "value": "{jds.color.background.brand-active}",
+              "type": "color",
+              "description": "Background color of completed active state of progress step node"
+            },
+            "border": {
+              "value": "{jds.color.border.brand}",
+              "type": "color",
+              "description": "Border color of completed state of progress step node"
+            },
+            "icon": {
+              "value": "{jds.color.icon.inverse}",
+              "type": "color",
+              "description": "Color for icon of completed state of progress step node"
+            },
+            "icon-hover": {
+              "value": "{jds.color.icon.inverse}",
+              "type": "color",
+              "description": "Color for icon hover state of completed state of progress step node"
+            },
+            "icon-active": {
+              "value": "{jds.color.icon.inverse}",
+              "type": "color",
+              "description": "Color for icon active state of completed state of progress step node"
+            }
+          },
+          "size": {
+            "value": "20",
+            "type": "sizing",
+            "description": "Size of completed node for progress step"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.round}",
+            "type": "borderRadius",
+            "description": "Border radius for completed node of progress step"
+          },
+          "border-width": {
+            "value": "0",
+            "type": "borderWidth",
+            "description": "Border width for completed node of progress step"
+          }
+        },
+        "current": {
+          "color": {
+            "background": {
+              "value": "{jds.color.text.brand}",
+              "type": "color",
+              "description": "Background color for current node of progress step"
+            },
+            "background-hover": {
+              "value": "{jds.color.text.brand-hover}",
+              "type": "color",
+              "description": "Background color for current node hover state of progress step"
+            },
+            "background-active": {
+              "value": "{jds.color.text.brand-active}",
+              "type": "color",
+              "description": "Background color for current node active state of progress step"
+            },
+            "border": {
+              "value": "{jds.color.border.brand}",
+              "type": "color",
+              "description": "Border color for current node of progress step"
+            }
+          },
+          "inner": {
+            "color": {
+              "background": {
+                "value": "{jds.color.background.neutral-subtle}",
+                "type": "color",
+                "description": "Background color for inner current node of progress step"
+              },
+              "background-hover": {
+                "value": "{jds.color.background.neutral-subtle}",
+                "type": "color",
+                "description": "Background color for hover state of inner current node of progress step"
+              },
+              "background-active": {
+                "value": "{jds.color.background.neutral-subtle}",
+                "type": "color",
+                "description": "Background color for active state of inner current node of progress step"
+              }
+            },
+            "size": {
+              "value": "8",
+              "type": "sizing",
+              "description": "Inner size of current node for progress step"
+            }
+          },
+          "size": {
+            "value": "20",
+            "type": "sizing",
+            "description": "Size of current node for progress step"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.round}",
+            "type": "borderRadius",
+            "description": "Border radius for current node of progress step"
+          },
+          "border-width": {
+            "value": "0",
+            "type": "borderWidth",
+            "description": "Border width for current node of progress step"
+          }
+        },
+        "next": {
+          "color": {
+            "background": {
+              "value": "{jds.color.background.neutral-subtle}",
+              "type": "color",
+              "description": "Background color for next node state of progress step"
+            },
+            "background-hover": {
+              "value": "{jds.color.background.neutral-subtle-hover}",
+              "type": "color",
+              "description": "Background color for next node hover state of progress step"
+            },
+            "background-active": {
+              "value": "{jds.color.background.neutral-subtle-active}",
+              "type": "color",
+              "description": "Background color for next node active state of progress step"
+            },
+            "border": {
+              "value": "{jds.color.border.regular}",
+              "type": "color",
+              "description": "Border color for next node state of progress step"
+            },
+            "border-hover": {
+              "value": "{jds.color.border.brand-hover}",
+              "type": "color",
+              "description": "Border color for next node hover state of progress step"
+            },
+            "border-active": {
+              "value": "{jds.color.border.brand-active}",
+              "type": "color",
+              "description": "Border color for next node active state of progress step"
+            },
+            "text": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Text color for next node state of progress step"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Text color for next node hover state of progress step"
+            },
+            "text-active": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Text color for next node active state of progress step"
+            }
+          },
+          "size": {
+            "value": "20",
+            "type": "sizing",
+            "description": "Size of next node for progress step"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.round}",
+            "type": "borderRadius",
+            "description": "Border radius for next node of progress step"
+          },
+          "border-width": {
+            "value": "0",
+            "type": "borderWidth",
+            "description": "Border width for next node of progress step"
+          }
+        }
+      },
+      "label": {
+        "current": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.brand}",
+              "type": "color",
+              "description": "Text color for current state of progress step label"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.brand-hover}",
+              "type": "color",
+              "description": "Text color for current hover state of progress step label"
+            },
+            "text-active": {
+              "value": "{jds.color.text.brand-active}",
+              "type": "color",
+              "description": "Text color for current active state of progress step label"
+            }
+          }
+        },
+        "completed": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.brand}",
+              "type": "color",
+              "description": "Text color for completed state of progress step label"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.brand-hover}",
+              "type": "color",
+              "description": "Text color for completed hover state of progress step label"
+            },
+            "text-active": {
+              "value": "{jds.color.text.brand-active}",
+              "type": "color",
+              "description": "Text color for completed active state of progress step label"
+            }
+          }
+        },
+        "next": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Text color for next state of progress step label"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Text color for next hover state of progress step label"
+            },
+            "text-active": {
+              "value": "{jds.color.text.subtle}",
+              "type": "color",
+              "description": "Text color for next active state of progress step label"
+            }
+          }
+        }
+      },
+      "status": {
+        "thickness": {
+          "value": "4",
+          "type": "sizing",
+          "description": "Thickness of status indicator for progress step"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius of status indicator for progress step"
+        },
+        "color": {
+          "background": {
+            "value": "{jds.color.background.progress}",
+            "type": "color",
+            "description": "Background color for progress step status indicator"
+          }
+        }
+      },
+      "track": {
+        "thickness": {
+          "value": "4",
+          "type": "sizing",
+          "description": "Thickness of track for progress step"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius of track for progress step"
+        },
+        "color": {
+          "background": {
+            "value": "{jds.color.background.track}",
+            "type": "color",
+            "description": "Background color for progress step track"
+          }
+        }
+      },
+      "vertical-track": {
+        "thickness": {
+          "value": "2",
+          "type": "sizing",
+          "description": "Thickness of vertical track for progress step"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.round}",
+          "type": "borderRadius",
+          "description": "Border radius of vertical track for progress step"
+        },
+        "completed": {
+          "color": {
+            "background": {
+              "value": "{jds.color.background.brand}",
+              "type": "color",
+              "description": "Background color for progress step completed vertical track"
+            }
+          }
+        },
+        "current": {
+          "color": {
+            "background": {
+              "value": "{jds.color.background.track}",
+              "type": "color",
+              "description": "Background color for progress step completed vertical track"
+            }
+          }
+        },
+        "next": {
+          "color": {
+            "background": {
+              "value": "{jds.color.background.track}",
+              "type": "color",
+              "description": "Background color for progress step completed next vertical track"
+            }
+          }
+        }
+      },
+      "vertical": {
+        "node-label": {
+          "gap": {
+            "value": "8",
+            "type": "spacing",
+            "description": "Gap between the node and label for the vertical progress step"
+          }
+        },
+        "node-bar": {
+          "gap": {
+            "value": "2",
+            "type": "spacing",
+            "description": "Gap between the node and bar for the vertical progress step"
+          }
+        }
+      },
+      "node-label": {
+        "gap": {
+          "value": "8",
+          "type": "spacing",
+          "description": "Gap between the node and label for the progress step"
+        }
+      },
+      "node-bar": {
+        "gap": {
+          "value": "4",
+          "type": "spacing",
+          "description": "Gap between the node and bar for the progress step"
+        }
+      }
+    },
+    "progress-phase": {
+      "status": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.progress}",
+            "type": "color",
+            "description": "Background color for progress phase status indicator"
+          }
+        },
+        "thickness": {
+          "value": "4",
+          "type": "sizing",
+          "description": "Thickness of status indicator for progress phase"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius of status indicator for progress phase"
+        }
+      },
+      "track": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.track}",
+            "type": "color",
+            "description": "Background color for progress phase track"
+          }
+        },
+        "thickness": {
+          "value": "4",
+          "type": "sizing",
+          "description": "Thickness of track for progress phase"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.regular}",
+          "type": "borderRadius",
+          "description": "Border radius of track for progress phase"
+        }
+      },
+      "current": {
+        "color": {
+          "background": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of current state of progress phase"
+          },
+          "background-hover": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of current hover state of progress phase"
+          },
+          "background-active": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of current active state of progress phase"
+          },
+          "icon": {
+            "value": "{jds.color.icon.brand}",
+            "type": "color",
+            "description": "Icon color of current state of progress phase"
+          },
+          "icon-hover": {
+            "value": "{jds.color.icon.brand-hover}",
+            "type": "color",
+            "description": "Icon color of current hover state of progress phase"
+          },
+          "icon-active": {
+            "value": "{jds.color.icon.brand-active}",
+            "type": "color",
+            "description": "Icon color of current active state of progress phase"
+          }
+        },
+        "icon-container": {
+          "color": {
+            "background": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for current state of progress phase"
+            },
+            "background-hover": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for current hover state of progress phase"
+            },
+            "background-active": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for current active state of progress phase"
+            }
+          },
+          "padding": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Padding for container of icon in current state of progress phase"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.none}",
+            "type": "borderRadius",
+            "description": "Border radius for current state icon of progress phase"
+          }
+        },
+        "label": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.brand}",
+              "type": "color",
+              "description": "Text color of label for current state of progress phase"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.brand-hover}",
+              "type": "color",
+              "description": "Text color of label for current hover state of progress phase"
+            },
+            "text-active": {
+              "value": "{jds.color.text.brand-active}",
+              "type": "color",
+              "description": "Text color of label for current active state of progress phase"
+            }
+          }
+        },
+        "padding": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Padding for container of current state of progress phase"
+        },
+        "gap": {
+          "value": "4",
+          "type": "spacing",
+          "description": "Gap for container of current state of progress phase"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.none}",
+          "type": "borderRadius",
+          "description": "Border radius for current state container of progress phase"
+        }
+      },
+      "completed": {
+        "icon-container": {
+          "color": {
+            "background": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for completed state of progress phase"
+            },
+            "background-hover": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for completed hover state of progress phase"
+            },
+            "background-active": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for completed active state of progress phase"
+            }
+          },
+          "padding": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Padding for container of icon in completed state of progress phase"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.none}",
+            "type": "borderRadius",
+            "description": "Border radius for completed state node of progress phase"
+          }
+        },
+        "color": {
+          "background": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of completed state of progress phase"
+          },
+          "background-hover": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of completed hover state of progress phase"
+          },
+          "background-active": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of completed active state of progress phase"
+          },
+          "icon": {
+            "value": "{jds.color.icon.brand}",
+            "type": "color",
+            "description": "Icon color of completed state of progress phase"
+          },
+          "icon-hover": {
+            "value": "{jds.color.icon.brand-hover}",
+            "type": "color",
+            "description": "Icon color of completed hover state of progress phase"
+          },
+          "icon-active": {
+            "value": "{jds.color.icon.brand-active}",
+            "type": "color",
+            "description": "Icon color of completed active state of progress phase"
+          }
+        },
+        "label": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.brand}",
+              "type": "color",
+              "description": "Text color of label for completed state of progress phase"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.brand-hover}",
+              "type": "color",
+              "description": "Text color of label for completed hover state of progress phase"
+            },
+            "text-active": {
+              "value": "{jds.color.text.brand-active}",
+              "type": "color",
+              "description": "Text color of label for completed active state of progress phase"
+            }
+          }
+        },
+        "padding": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Padding for container of completed state of progress phase"
+        },
+        "gap": {
+          "value": "4",
+          "type": "spacing",
+          "description": "Gap for container of completed state of progress phase"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.none}",
+          "type": "borderRadius",
+          "description": "Border radius for completed state container of progress phase"
+        }
+      },
+      "next": {
+        "icon-container": {
+          "color": {
+            "background": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for next state of progress phase"
+            },
+            "background-hover": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for next hover state of progress phase"
+            },
+            "background-active": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color of icon container for next active state of progress phase"
+            }
+          },
+          "padding": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Padding for container of icon in next state of progress phase"
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.none}",
+            "type": "borderRadius",
+            "description": "Border radius for next state node of progress phase"
+          }
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.none}",
+          "type": "borderRadius",
+          "description": "Border radius for next state container of progress phase"
+        },
+        "color": {
+          "background": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of next state of progress phase"
+          },
+          "background-hover": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of next hover state of progress phase"
+          },
+          "background-active": {
+            "value": "{jds.color.transparent}",
+            "type": "color",
+            "description": "Background color of next active state of progress phase"
+          },
+          "icon": {
+            "value": "{jds.color.icon.subtle}",
+            "type": "color",
+            "description": "Icon color of next state of progress phase"
+          },
+          "icon-hover": {
+            "value": "{jds.color.icon.subtle}",
+            "type": "color",
+            "description": "Icon color of next hover state of progress phase"
+          },
+          "icon-active": {
+            "value": "{jds.color.icon.subtle}",
+            "type": "color",
+            "description": "Icon color of next active state of progress phase"
+          }
+        },
+        "label": {
+          "color": {
+            "text": {
+              "value": "{jds.color.icon.subtle}",
+              "type": "color",
+              "description": "Text color of label for next state of progress phase"
+            },
+            "text-hover": {
+              "value": "{jds.color.icon.subtle}",
+              "type": "color",
+              "description": "Text color of label for next hover state of progress phase"
+            },
+            "text-active": {
+              "value": "{jds.color.icon.subtle}",
+              "type": "color",
+              "description": "Text color of label for next active state of progress phase"
+            }
+          }
+        },
+        "padding": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Padding for container of next state of progress phase"
+        },
+        "gap": {
+          "value": "4",
+          "type": "spacing",
+          "description": "Gap for container of next state of progress phase"
+        }
+      },
+      "bar-label": {
+        "gap": {
+          "value": "4",
+          "type": "spacing",
+          "description": "Gap between progress bar and label for progress phase"
+        }
+      },
+      "label": {
+        "color": {
+          "error": {
+            "text": {
+              "value": "{jds.color.text.error}",
+              "type": "color",
+              "description": "Text color for error state of progress phase label"
+            }
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "error": {
+            "value": "{jds.color.icon.error}",
+            "type": "color",
+            "description": "Background color of error state of progress phase icon"
+          }
+        }
+      },
+      "label-secondary": {
+        "color": {
+          "text": {
+            "value": "{jds.color.text.subtle}",
+            "type": "color",
+            "description": "Text color for progress phase secondary label"
+          }
+        }
+      }
+    },
+    "selector": {
+      "color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "color-text-selected": {
+        "value": "{jds.color.text.inverse}",
+        "type": "color"
+      },
+      "color-background": {
+        "value": "{jds.elevation.surface}",
+        "type": "color"
+      },
+      "color-background-hover": {
+        "value": "{jds.elevation.surface-hover}",
+        "type": "color"
+      },
+      "color-background-active": {
+        "value": "{jds.elevation.surface-active}",
+        "type": "color"
+      },
+      "color-icon-selected": {
+        "value": "{jds.color.icon.inverse}",
+        "type": "color"
+      },
+      "color-background-selected": {
+        "value": "{jds.color.background.selected}",
+        "type": "color"
+      },
+      "color-background-selected-hover": {
+        "value": "{jds.color.background.selected-hover}",
+        "type": "color"
+      },
+      "color-background-selected-active": {
+        "value": "{jds.color.background.selected-active}",
+        "type": "color"
+      },
+      "color-border-selected": {
+        "value": "{jds.color.border.selected}",
+        "type": "color"
+      },
+      "color-border-focus": {
+        "value": "{jds.color.border.focus}",
+        "type": "color"
+      },
+      "shadow-border": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{jds.color.background.neutral-subtle}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Inset shadow used as an optional second border for selectors"
+      }
+    },
+    "side-navigation": {
+      "color-background": {
+        "value": "{jds.color.background.neutral-subtle}",
+        "type": "color"
+      },
+      "color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "color-text-hover": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "color-text-active": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "color-background-active": {
+        "value": "{jds.color.background.brand-accent-1-subtle}",
+        "type": "color",
+        "description": "In code, value is ‘unset’. Figma does not have this concept."
+      },
+      "color-border": {
+        "value": "{jds.color.border.regular}",
+        "type": "color"
+      },
+      "item": {
+        "color-border-selected": {
+          "value": "{jds.color.border.selected}",
+          "type": "color"
+        },
+        "color-text": {
+          "value": "{jds.color.text.regular}",
+          "type": "color"
+        },
+        "color-text-hover": {
+          "value": "{jds.color.text.regular}",
+          "type": "color"
+        },
+        "color-text-active": {
+          "value": "{jds.color.text.regular}",
+          "type": "color"
+        },
+        "item-color-background": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "In code, value is ‘unset’. Figma does not have this concept."
+        },
+        "item-color-background-hover": {
+          "value": "{jds.color.background.brand-accent-1-subtle}",
+          "type": "color"
+        },
+        "item-color-background-active": {
+          "value": "{jds.color.background.brand-accent-1-subtle}",
+          "type": "color"
+        },
+        "item-select-indicator-color-background": {
+          "value": "{jds.color.background.brand-accent-1}",
+          "type": "color"
+        }
+      },
+      "left-icon-color-icon": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "left-icon-color-icon-active": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "right-icon-color-icon": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "right-icon-color-icon-active": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "accordion-color-background": {
+        "value": "{jds.color.background.neutral-subtle}",
+        "type": "color"
+      },
+      "sub-item-color-background": {
+        "value": "{jds.side-navigation.accordion-color-background}",
+        "type": "color"
+      },
+      "sub-item-color-background-hover": {
+        "value": "{jds.color.background.brand-accent-1-subtle-hover}",
+        "type": "color"
+      }
+    },
+    "switch": {
+      "handle": {
+        "color": {
+          "background": {
+            "value": "{jds.elevation.surface}",
+            "type": "color",
+            "description": "Background color for switch handle"
+          }
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.round}",
+          "type": "borderRadius",
+          "description": "Border radius for switch handle"
+        },
+        "size": {
+          "value": "16",
+          "type": "sizing",
+          "description": "Size for switch button"
+        }
+      },
+      "track": {
+        "color": {
+          "background-off": {
+            "value": "{jds.color.palette-neutral.70}",
+            "type": "color",
+            "description": "Background color for off state of switch track"
+          },
+          "background-off-hover": {
+            "value": "{jds.color.palette-neutral.80}",
+            "type": "color",
+            "description": "Background color for hover off state of switch track"
+          },
+          "background-off-active": {
+            "value": "{jds.color.palette-neutral.90}",
+            "type": "color",
+            "description": "Background color for active off state of switch track"
+          },
+          "background-on": {
+            "value": "{jds.color.background.selected}",
+            "type": "color",
+            "description": "Background color for the on state of switch track"
+          },
+          "background-on-hover": {
+            "value": "{jds.color.background.selected-hover}",
+            "type": "color",
+            "description": "Background color for the hover on state of switch track"
+          },
+          "background-on-active": {
+            "value": "{jds.color.background.selected-active}",
+            "type": "color",
+            "description": "Background color for the active on state of switch track"
+          }
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.round}",
+          "type": "borderRadius",
+          "description": "Border radius for switch track"
+        }
+      },
+      "width": {
+        "value": "40px",
+        "type": "sizing",
+        "description": "Width for switch"
+      },
+      "height": {
+        "value": "20px",
+        "type": "sizing",
+        "description": "Height for switch"
+      },
+      "padding": {
+        "value": "2",
+        "type": "spacing",
+        "description": "Padding for switch"
+      }
+    },
+    "tab": {
+      "bar-color-background": {
+        "value": "{jds.color.transparent}",
+        "type": "color",
+        "description": "Deprecated beginning with 10.4 release"
+      },
+      "bar-heading-color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color",
+        "description": "Deprecated beginning with 10.4 release"
+      },
+      "bar-heading-color-text-hover": {
+        "value": "{jds.color.text.brand}",
+        "type": "color",
+        "description": "Deprecated beginning with 10.4 release"
+      },
+      "bar-heading-color-background-hover": {
+        "value": "{jds.color.background.brand}",
+        "type": "color",
+        "description": "Deprecated beginning with 10.4 release"
+      },
+      "bar-heading-color-border-focus": {
+        "value": "{jds.color.border.focus}",
+        "type": "color",
+        "description": "Deprecated beginning with 10.4 release"
+      },
+      "bar-heading-color-border-active": {
+        "value": "{jds.color.border.brand-accent-1}",
+        "type": "color",
+        "description": "Deprecated beginning with 10.4 release"
+      },
+      "height": {
+        "value": "{jds.size.input-height}",
+        "type": "sizing",
+        "description": "Height of tab"
+      },
+      "color": {
+        "background": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for tab"
+        },
+        "background-hover": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for hover state of tab"
+        },
+        "background-active": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for active state of tab"
+        },
+        "background-selected": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for selected state of tab"
+        },
+        "background-selected-hover": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for selected hover state of tab"
+        },
+        "background-selected-active": {
+          "value": "{jds.color.background.neutral-subtle}",
+          "type": "color",
+          "description": "Background color for selected activ state of tab"
+        },
+        "text": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for tab"
+        },
+        "text-hover": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for hover state of tab"
+        },
+        "text-active": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for active state of tab"
+        },
+        "text-selected": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for selected state of tab"
+        },
+        "text-selected-hover": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for selected hover state of tab"
+        },
+        "text-selected-active": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color for selected active state of tab"
+        },
+        "border-selected": {
+          "value": "{jds.color.border.brand-accent-1}",
+          "type": "color",
+          "description": "Border color for selected state of tab"
+        }
+      },
+      "header": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for tab header"
+          },
+          "border": {
+            "value": "{jds.color.border.separator}",
+            "type": "color",
+            "description": "Border color for tab header"
+          }
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.none}",
+          "type": "borderRadius",
+          "description": "Border radius for tab header"
+        },
+        "border-width": {
+          "value": {
+            "borderWidthTop": "{jds.border-width.none}",
+            "borderWidthRight": "{jds.border-width.none}",
+            "borderWidthBottom": "{jds.border-width.regular}",
+            "borderWidthLeft": "{jds.border-width.none}"
+          },
+          "type": "composition",
+          "description": "Border width for tab header"
+        }
+      },
+      "content": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for tab content container"
+          }
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.none}",
+          "type": "borderRadius",
+          "description": "Border radius for tab content container"
+        },
+        "padding": {
+          "value": "0 12",
+          "type": "spacing",
+          "description": "Padding for tab content container"
+        }
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.none}",
+        "type": "borderRadius",
+        "description": "Border radius for tab"
+      },
+      "padding": {
+        "value": "0 12",
+        "type": "spacing",
+        "description": "Padding for tab"
+      },
+      "border-width-selected": {
+        "value": {
+          "borderWidthTop": "{jds.border-width.none}",
+          "borderWidthRight": "{jds.border-width.none}",
+          "borderWidthBottom": "{jds.border-width.thick}",
+          "borderWidthLeft": "{jds.border-width.none}"
+        },
+        "type": "composition",
+        "description": "Border width for selected state of tab"
+      }
+    },
+    "table": {
+      "title-bar-color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "color-text": {
+        "value": "{jds.color.text.regular}",
+        "type": "color"
+      },
+      "cell-color-background": {
+        "value": "{jds.color.transparent}",
+        "type": "color"
+      },
+      "row-color-background-hover": {
+        "value": "{jds.color.background.selected-subtle}",
+        "type": "color"
+      },
+      "no-data-color-text": {
+        "value": "{jds.color.text.subtle}",
+        "type": "color"
+      },
+      "card-odd-row-color-background": {
+        "value": "{jds.color.background.neutral-subtle}",
+        "type": "color"
+      },
+      "card-even-row-color-background": {
+        "value": "{jds.color.palette-neutral.10}",
+        "type": "color"
+      }
+    },
+    "top-navigation": {
+      "color-background": {
+        "value": "{jds.color.background.neutral-subtle}",
+        "type": "color"
+      },
+      "item-select-indicator-thickness": {
+        "value": "4",
+        "type": "sizing",
+        "description": "Thickness of the select indicator for top navigation"
+      },
+      "item": {
+        "color-text": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Text color within a top nav item."
+        },
+        "color-text-active": {
+          "value": "{jds.color.text.regular}",
+          "type": "color",
+          "description": "Active text color within a top nav item."
+        },
+        "select-indicator-color-background": {
+          "value": "{jds.color.background.brand-accent-1}",
+          "type": "color",
+          "description": "Background color of the select indicator within a top nav item."
+        },
+        "color-background": {
+          "value": "{jds.color.transparent}",
+          "type": "color",
+          "description": "Background color of the default state of a top nav item."
+        },
+        "color-background-hover": {
+          "value": "{jds.color.background.brand-accent-1-subtle}",
+          "type": "color",
+          "description": "Background color of the hover state of a top nav item."
+        },
+        "color-background-active": {
+          "value": "{jds.color.background.brand-accent-1-subtle}",
+          "type": "color",
+          "description": "Background color of the active state of a top nav item."
+        }
+      }
+    },
+    "slider": {
+      "handle": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.brand}",
+            "type": "color",
+            "description": "Background color for slider handle"
+          },
+          "background-hover": {
+            "value": "{jds.color.background.brand-hover}",
+            "type": "color",
+            "description": "Background color for hover state of slider handle"
+          },
+          "background-active": {
+            "value": "{jds.color.background.brand-active}",
+            "type": "color",
+            "description": "Background color for active state of slider handle"
+          },
+          "border": {
+            "value": "{jds.color.border.brand}",
+            "type": "color",
+            "description": "Border color for slider handle"
+          },
+          "border-hover": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color",
+            "description": "Border color for hover state of slider handle"
+          },
+          "border-active": {
+            "value": "{jds.color.border.inverse}",
+            "type": "color",
+            "description": "Border color for active state of slider handle"
+          }
+        },
+        "current-value": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.regular}",
+              "type": "color",
+              "description": "Text color for slider handle value"
+            }
+          }
+        },
+        "width": {
+          "value": "20",
+          "type": "sizing",
+          "description": "Width of slider handle"
+        },
+        "height": {
+          "value": "20",
+          "type": "sizing",
+          "description": "Height of slider handle"
+        },
+        "border-radius": {
+          "value": "{jds.border-radius.round}",
+          "type": "borderRadius",
+          "description": "Border radius for slider knob"
+        },
+        "border-width": {
+          "value": "{jds.border-width.none}",
+          "type": "borderWidth",
+          "description": "Border width for slider handle"
+        },
+        "border-width-hover": {
+          "value": "{jds.border-width.thick}",
+          "type": "borderWidth",
+          "description": "Border width for hover state of slider handle"
+        },
+        "border-width-active": {
+          "value": "{jds.border-width.thick}",
+          "type": "borderWidth",
+          "description": "Border width for active state of slider handle"
+        },
+        "shadow": {
+          "value": "{jds.elevation.shadow.low}",
+          "type": "boxShadow",
+          "description": "Shadow for slider handle"
+        }
+      },
+      "range": {
+        "color": {
+          "text": {
+            "value": "{jds.color.text.subtle}",
+            "type": "color",
+            "description": "Text color for slider range"
+          }
+        }
+      },
+      "filled-track": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.brand}",
+            "type": "color",
+            "description": "Background color for slider progress bar"
+          }
+        },
+        "thickness": {
+          "value": "2",
+          "type": "sizing",
+          "description": "Thickness of slider progress indicator"
+        }
+      },
+      "track": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.track}",
+            "type": "color",
+            "description": "Background color for slider progress track"
+          }
+        },
+        "thickness": {
+          "value": "2",
+          "type": "sizing",
+          "description": "Thickness of slider track"
+        }
+      },
+      "gap": {
+        "value": "12",
+        "type": "spacing",
+        "description": "Gap between elements of slider"
+      }
+    },
+    "toggle": {
+      "field": {
+        "color-text": {
+          "value": "{jds.color.text.subtle}",
+          "type": "color"
+        }
+      }
+    },
+    "stepper": {
+      "gap": {
+        "value": "4",
+        "type": "spacing",
+        "description": "Gap between elements of stepper"
+      },
+      "input-field": {
+        "height": {
+          "value": "{jds.size.input-height}",
+          "type": "sizing",
+          "description": "Height for stepper input field"
+        },
+        "min-width": {
+          "value": "{jds.size.4}",
+          "type": "sizing",
+          "description": "Min-width for stepper input field"
+        }
+      }
+    },
+    "tag": {
+      "color": {
+        "background": {
+          "value": "{jds.color.background.neutral}",
+          "type": "color",
+          "description": "Background color for tag"
+        },
+        "background-hover": {
+          "value": "{jds.color.background.neutral-hover}",
+          "type": "color",
+          "description": "Background color for hover state of tag"
+        },
+        "background-active": {
+          "value": "{jds.color.background.neutral-active}",
+          "type": "color",
+          "description": "Background color for active state of tag"
+        }
+      },
+      "icon": {
+        "color": {
+          "icon": {
+            "value": "{jds.color.icon.regular}",
+            "type": "color",
+            "description": "Color for tag close icon"
+          }
+        }
+      },
+      "padding": {
+        "value": "2 {jds.space.3} 3",
+        "type": "spacing",
+        "description": "Padding for tag"
+      },
+      "gap": {
+        "value": "{jds.space.1}",
+        "type": "spacing",
+        "description": "Gap for tag"
+      },
+      "collapsed": {
+        "padding": {
+          "value": "2 {jds.space.3} 3",
+          "type": "spacing",
+          "description": "Padding for collapsed tag"
+        },
+        "gap": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Gap for collapsed tag"
+        }
+      },
+      "container": {
+        "gap": {
+          "value": "{jds.space.3}",
+          "type": "spacing",
+          "description": "Gap for tag container"
+        }
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.regular}",
+        "type": "borderRadius",
+        "description": "Border radius for tag"
+      },
+      "min-height": {
+        "value": "23",
+        "type": "sizing",
+        "description": "Min-height for tag"
+      },
+      "max-width": {
+        "value": "98",
+        "type": "sizing",
+        "description": "Max-width for tag"
+      },
+      "icon-size": {
+        "value": "14",
+        "type": "sizing",
+        "description": "Size of icon for tag"
+      }
+    },
+    "inline-notification": {
+      "error": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.error-subtle}",
+            "type": "color",
+            "description": "Background color for error inline notification"
+          },
+          "border": {
+            "value": "{jds.color.border.error}",
+            "type": "color",
+            "description": "Border color for error inline notification"
+          },
+          "icon": {
+            "value": "{jds.color.icon.error}",
+            "type": "color",
+            "description": "Icon color for error inline notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for error inline notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.transparent}",
+                "type": "color",
+                "description": "Background color for inline notification error icon container"
+              }
+            }
+          }
+        }
+      },
+      "information": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.information-subtle}",
+            "type": "color",
+            "description": "Background color for information inline notification"
+          },
+          "border": {
+            "value": "{jds.color.border.information}",
+            "type": "color",
+            "description": "Border color for information inline notification"
+          },
+          "icon": {
+            "value": "{jds.color.icon.information}",
+            "type": "color",
+            "description": "Icon color for information inline notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for information inline notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.transparent}",
+                "type": "color",
+                "description": "Background color for inline notification information icon container"
+              }
+            }
+          }
+        }
+      },
+      "success": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.success-subtle}",
+            "type": "color",
+            "description": "Background color for success inline notification"
+          },
+          "border": {
+            "value": "{jds.color.border.success}",
+            "type": "color",
+            "description": "Border color for success inline notification"
+          },
+          "icon": {
+            "value": "{jds.color.icon.success}",
+            "type": "color",
+            "description": "Icon color for success inline notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for success inline notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.transparent}",
+                "type": "color",
+                "description": "Background color for inline notification success icon container"
+              }
+            }
+          }
+        }
+      },
+      "warning": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.warning-subtle}",
+            "type": "color",
+            "description": "Background color for warning inline notification"
+          },
+          "border": {
+            "value": "{jds.color.border.warning}",
+            "type": "color",
+            "description": "Border color for warning inline notification"
+          },
+          "icon": {
+            "value": "{jds.color.icon.warning}",
+            "type": "color",
+            "description": "Icon color for warning inline notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for warning inline notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.transparent}",
+                "type": "color",
+                "description": "Background color for inline notification warning icon container"
+              }
+            }
+          }
+        }
+      },
+      "border-width": {
+        "value": "{jds.border-width.regular}",
+        "type": "borderWidth",
+        "description": "Border width for inline notification"
+      },
+      "close": {
+        "container": {
+          "color": {
+            "background": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color for inline notification close container"
+            }
+          },
+          "border-radius": {
+            "value": "0 {jds.border-radius.regular} {jds.border-radius.regular} 0",
+            "type": "borderRadius",
+            "description": "Border radius of close container for inline notification"
+          }
+        },
+        "color": {
+          "icon": {
+            "value": "{jds.color.icon.regular}",
+            "type": "color",
+            "description": "Icon color for inline notification close"
+          }
+        }
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.regular}",
+        "type": "borderRadius",
+        "description": "Border radius for inline notification"
+      },
+      "icon": {
+        "container": {
+          "border-radius": {
+            "value": "{jds.border-radius.regular} 0 0 {jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius of icon container for inline notification"
+          }
+        }
+      },
+      "width": {
+        "value": "320",
+        "type": "sizing",
+        "description": "Width for inline notification"
+      },
+      "min-height": {
+        "value": "40",
+        "type": "sizing",
+        "description": "Min-height for inline notification"
+      },
+      "gap": {
+        "value": "0",
+        "type": "spacing",
+        "description": "Gap between elements within inline notification"
+      }
+    },
+    "toast-notification": {
+      "error": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for error toast notification"
+          },
+          "border": {
+            "value": "{jds.color.border.error}",
+            "type": "color",
+            "description": "Border color for error toast notification"
+          },
+          "icon": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Icon color for error toast notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for error toast notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.background.error}",
+                "type": "color",
+                "description": "Background color for toast notification error icon container"
+              }
+            }
+          }
+        }
+      },
+      "information": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for toast inline notification"
+          },
+          "border": {
+            "value": "{jds.color.border.information}",
+            "type": "color",
+            "description": "Border color for information toast notification"
+          },
+          "icon": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Icon color for information toast notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for information toast notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.background.information}",
+                "type": "color",
+                "description": "Background color for toast notification information icon container"
+              }
+            }
+          }
+        }
+      },
+      "success": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for success toast notification"
+          },
+          "border": {
+            "value": "{jds.color.border.success}",
+            "type": "color",
+            "description": "Border color for success toast notification"
+          },
+          "icon": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Icon color for success toast notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for success toast notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.background.success}",
+                "type": "color",
+                "description": "Background color for toast notification success icon container"
+              }
+            }
+          }
+        }
+      },
+      "warning": {
+        "color": {
+          "background": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Background color for warning toast notification"
+          },
+          "border": {
+            "value": "{jds.color.border.warning}",
+            "type": "color",
+            "description": "Border color for warning toast notification"
+          },
+          "icon": {
+            "value": "{jds.color.background.neutral-subtle}",
+            "type": "color",
+            "description": "Icon color for warning toast notification"
+          },
+          "text": {
+            "value": "{jds.color.text.regular}",
+            "type": "color",
+            "description": "Text color for warning toast notification"
+          }
+        },
+        "icon": {
+          "container": {
+            "color": {
+              "background": {
+                "value": "{jds.color.background.warning}",
+                "type": "color",
+                "description": "Background color for toast notification warning icon container"
+              }
+            }
+          }
+        }
+      },
+      "border-width": {
+        "value": "{jds.border-width.regular}",
+        "type": "borderWidth",
+        "description": "Border width for toast notification"
+      },
+      "close": {
+        "container": {
+          "color": {
+            "background": {
+              "value": "{jds.color.transparent}",
+              "type": "color",
+              "description": "Background color for toast notification close container"
+            }
+          },
+          "border-radius": {
+            "value": "{jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius of close container for toast notification"
+          }
+        },
+        "color": {
+          "icon": {
+            "value": "{jds.color.icon.regular}",
+            "type": "color",
+            "description": "Icon color for toast notification close"
+          }
+        }
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.regular}",
+        "type": "borderRadius",
+        "description": "Border radius for toast notification"
+      },
+      "icon": {
+        "container": {
+          "border-radius": {
+            "value": "{jds.border-radius.regular} 0 0 {jds.border-radius.regular}",
+            "type": "borderRadius",
+            "description": "Border radius of icon container for toast notification"
+          }
+        }
+      },
+      "width": {
+        "value": "320",
+        "type": "sizing",
+        "description": "Width for toast notification"
+      },
+      "min-height": {
+        "value": "40",
+        "type": "sizing",
+        "description": "Min-height for toast notification"
+      },
+      "gap": {
+        "value": "12",
+        "type": "spacing",
+        "description": "Gap between elements within toast notification"
+      }
+    },
+    "tooltip": {
+      "color": {
+        "background": {
+          "value": "{jds.color.background.neutral-inverse}",
+          "type": "color",
+          "description": "Background color for tooltip"
+        },
+        "text": {
+          "value": "{jds.color.text.inverse}",
+          "type": "color",
+          "description": "Background color for tooltip"
+        },
+        "link": {
+          "color": {
+            "text": {
+              "value": "{jds.color.text.link-default-inverse}",
+              "type": "color",
+              "description": "Text color for tooltip link"
+            },
+            "text-hover": {
+              "value": "{jds.color.text.link-inverse-hover}",
+              "type": "color",
+              "description": "Text color for hover state of tooltip link"
+            },
+            "text-active": {
+              "value": "{jds.color.text.link-inverse-active}",
+              "type": "color",
+              "description": "Text color for active state of tooltip link"
+            }
+          }
+        }
+      },
+      "border-radius": {
+        "value": "{jds.border-radius.regular}",
+        "type": "borderRadius",
+        "description": "Border radius for tooltip"
+      },
+      "min-height": {
+        "value": "31",
+        "type": "sizing",
+        "description": "Min-height for tooltip"
+      },
+      "max-width": {
+        "value": "350",
+        "type": "sizing",
+        "description": "Max-width for tooltip"
+      },
+      "padding": {
+        "value": "5 {jds.space.3}",
+        "type": "spacing",
+        "description": "Padding for tooltip"
+      },
+      "icon-trigger": {
+        "color": {
+          "icon": {
+            "value": "{jds.color.icon.brand}",
+            "type": "color",
+            "description": "Color for tooltip help icon"
+          }
+        }
+      }
+    }
+  }
+}
