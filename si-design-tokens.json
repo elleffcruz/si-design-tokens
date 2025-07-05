@@ -826,7 +826,7 @@
         "fixed": {
           "1": {
             "type": "sizing",
-            "value": "11",
+            "value": "12",
             "description": "Fixed font scale size 1"
           },
           "2": {
